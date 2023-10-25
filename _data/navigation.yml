@@ -4,7 +4,7 @@ main:
     url: /publications/
 
   - title: "Achievements"
-    url: /Achievements/
+    url: /pages/Achievements.md
 
   - title: "Teaching"
     url: /teaching/    
