@@ -1,6 +1,5 @@
----
-** title: "Teaching Assistant"
 
+---
 type: "Summer School for Undergraduates : SWIM'22"
 
 venue: "TIFR-CAM"
