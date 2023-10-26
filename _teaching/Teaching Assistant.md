@@ -1,14 +1,13 @@
 ---
 title: "Teaching Assistant"
-type: "Undergraduate Course"
+type: "Graduate Course"
 permalink: /teaching/Teaching Assistant
 venue: "TIFR-CAM"
-date: 2014-01-01
 location: "Bangalore, India"
 ---
 
 
-I was the Teaching Assistant in the following courses at TIFR-CAM.
+I was the Teaching Assistant in the following graduate courses at TIFR-CAM.
 
 ---
 
