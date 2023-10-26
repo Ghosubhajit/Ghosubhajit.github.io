@@ -4,7 +4,6 @@ type: "Graduate Course"
 permalink: /teaching/Teaching Assistant
 venue: "TIFR-CAM"
 location: "Bangalore, India"
----
 
 
 I was the Teaching Assistant in the following graduate courses at TIFR-CAM.
@@ -20,3 +19,4 @@ I was the Teaching Assistant in the following graduate courses at TIFR-CAM.
 
 * Complex analysis'23 (July-December)
 
+---
