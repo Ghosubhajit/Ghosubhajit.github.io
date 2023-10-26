@@ -1,11 +1,11 @@
 ---
-title: " Teaching "
+title: "Teaching"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/Teaching Assistant
+type: "Undergraduate and graduate courses"
+permalink: /teaching/2014-spring-teaching-1
 venue: "TIFR-CAM"
-date: 2014-01-01
-location "Bangalore, India"
+date: 2024-01-01
+location: "Bangalore, India"
 ---
 
 ## Teaching Assistant for Undergraduates in [SWIM 2022](https://www.math.tifrbng.res.in/swim)
