@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/Teaching Assistant
 venue: "TIFR-CAM"
-date: 2012
+date: 2022-01-01
 location: "Bangalore, India"
 ---
 
@@ -14,19 +14,6 @@ location: "Bangalore, India"
 
 
 
-
-
-
-
-## Graduate Teaching Assistant in TIFR-CAM
-
-* Linear Algebra'20 (July-December)
-
-* Real Analysis'21 (July-December)
-
-* Probability Theory'22 (July-December)
-
-* Complex analysis'23 (July-December)
 
 
 
