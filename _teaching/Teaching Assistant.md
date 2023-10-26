@@ -3,10 +3,10 @@ title: "Teaching"
 collection: teaching
 type: "Undergraduate and graduate courses"
 venue: "TIFR-CAM"
-date: 2024-01-01
+<!--date: 2024-01-01 -->
 location: "Bangalore, India"
 ---
-
+<!-- This line will not be visible on the rendered page -->
 ## Teaching Assistant for Undergraduates in [SWIM 2022](https://www.math.tifrbng.res.in/swim)
 * Mathematical Logic, real analysis, linear algebra.
 
