@@ -20,8 +20,6 @@ type: "Graduate Course"
 
 venue: "TIFR-CAM"
 
-
-
 * Linear Algebra'20 (July-December)
 
 
