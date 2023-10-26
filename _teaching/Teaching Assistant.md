@@ -1,4 +1,4 @@
-
+---
 type: "Summer School for Undergraduates : SWIM'22"
 
 collection: teaching
