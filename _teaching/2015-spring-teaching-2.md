@@ -8,18 +8,17 @@ location: "Bangalore, India"
 ---
 
 
-Heading 1
-======
 Linear Algebra'20 (July-December)
-
-Heading 2
 ======
+
 Real Analysis'21 (July-December)
-
-Heading 3
 ======
+
+
 Probability Theory'22 (July-December)
-
-Heading 4
 ======
+
+
 Complex analysis'23 (July-December)
+======
+
