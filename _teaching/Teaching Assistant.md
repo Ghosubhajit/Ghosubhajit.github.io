@@ -1,7 +1,6 @@
 ---
 title: "Teaching Assistant"
 layout: single-portfolio
-excerpt: "CBR103"
 collection: teaching
 ---
 
