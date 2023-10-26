@@ -3,9 +3,8 @@ title: "Teaching"
 collection: teaching
 type: ""
 permalink: /teaching/
-venue: ""
-date: 2014-01-01
-location: "City, Country"
+venue: "TIFR-CAM"
+location: "Bangalore, India"
 ---
 
 ## Teaching Assistant for Undergraduates in [SWIM 2022](https://www.math.tifrbng.res.in/swim)
