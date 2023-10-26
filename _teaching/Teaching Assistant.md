@@ -1,9 +1,9 @@
 ---
-title: "Teaching experience 1"
+title: "Teaching"
 collection: teaching
-type: "Undergraduate course"
+type: ""
 permalink: /teaching/
-venue: "University 1, Department"
+venue: ""
 date: 2014-01-01
 location: "City, Country"
 ---
