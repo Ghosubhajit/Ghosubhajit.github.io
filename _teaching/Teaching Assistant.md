@@ -11,7 +11,6 @@ date: june'22
 
 location: "Bangalore, India.
 
----
 
 
 title: "Graduate Teaching Assistant"
@@ -20,6 +19,9 @@ collection: teaching
 type: "Graduate Course"
 
 venue: "TIFR-CAM"
+
+---
+
 
 * Linear Algebra'20 (July-December)
 
