@@ -1,0 +1,20 @@
+---
+title: "Teaching Assistant"
+collection: teaching
+type: "Ggraduate course"
+permalink: /teaching/TA4
+venue: "TIFR-CAM"
+date: 2023-01-01
+location: "Bangalore, India"
+---
+
+Complex Analysis in winter semester.
+
+Heading 1
+======
+
+Heading 2
+======
+
+Heading 3
+======
