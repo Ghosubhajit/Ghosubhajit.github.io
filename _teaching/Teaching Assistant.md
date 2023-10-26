@@ -8,7 +8,7 @@ location: "Bangalore, India"
 ---
 
 
-I was the Teaching 
+I was the Teaching Assistant in the following courses in TIFR-CAM.
 
 ---
 
