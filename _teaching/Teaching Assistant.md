@@ -3,7 +3,7 @@ type: "Summer School for Undergraduates : SWIM'22"
 
 collection: teaching
 
-permalink: /teaching/Teaching Assistant
+permalink: /teaching/Teaching Assistant.md
 
 venue: "TIFR-CAM"
 
