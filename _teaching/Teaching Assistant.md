@@ -4,6 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/Teaching Assistant
 venue: "TIFR-CAM"
+date: 2014-01-01
 location "Bangalore, India"
 ---
 
