@@ -1,6 +1,5 @@
 ---
 title: "Teaching Assistant"
-collection: teaching
 type: "Undergraduate Course"
 permalink: /teaching/Teaching Assistant
 venue: "TIFR-CAM"
@@ -9,14 +8,7 @@ location: "Bangalore, India"
 ---
 
 
-
-
-title: "Graduate Teaching Assistant"
-collection: teaching
-
-type: "Graduate Course"
-
-venue: "TIFR-CAM"
+I was the Teaching 
 
 ---
 
