@@ -3,8 +3,6 @@ title: "Teaching Assistant"
 layout: single-portfolio
 excerpt: "CBR103"
 collection: teaching
-order_number: 10
-header: 
 ---
 
 * Linear Algebra'20 (July-December)
