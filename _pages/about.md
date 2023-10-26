@@ -12,11 +12,13 @@ redirect_from:
 Contact me
 -----------
 TIFR-CAM, Room No-109,
+
 GKVK Post Office
-Sharada Nagar, Chikkabommsandra
+Sharada Nagar, Chikkabommsandra,
+
 Bangalore 560065
 Karnataka, India
 
 Email
 -------
-subhajitg[at]tifrbng[dot]res[dot]in
+subhajitg[at]tifrbng[dot]res[dot]in, shubhajitghosh1998[at]gmail[dot]com
