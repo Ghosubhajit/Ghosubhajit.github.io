@@ -11,6 +11,7 @@ date: june'22
 
 location: "Bangalore, India"
 
+---
 
 
 title: "Graduate Teaching Assistant"
