@@ -1,7 +1,9 @@
 
----
-
 type: "Summer School for Undergraduates : SWIM'22"
+
+collection: teaching
+
+permalink: /teaching/Teaching Assistant
 
 venue: "TIFR-CAM"
 
@@ -11,7 +13,7 @@ location: "Bangalore, India"
 
 
 
-** title: "Graduate Teaching Assistant"
+title: "Graduate Teaching Assistant"
 collection: teaching
 
 type: "Graduate Course"
