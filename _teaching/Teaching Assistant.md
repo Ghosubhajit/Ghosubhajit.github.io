@@ -6,7 +6,6 @@ venue: "TIFR-CAM"
 location: "Bangalore, India"
 ---
 
----
 ## Teaching Assistant for Undergraduates in [SWIM 2022](https://www.math.tifrbng.res.in/swim)
 * Mathematical Logic, real analysis, linear algebra.
 
