@@ -1,7 +1,6 @@
 ---
 title: "Teaching"
 collection: teaching
-type: ""
 permalink: /teaching/
 venue: "TIFR-CAM"
 location: "Bangalore, India"
