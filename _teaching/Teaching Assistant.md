@@ -2,8 +2,7 @@
 title: " Teaching "
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/
-date: 2014-01-01
+permalink: /teaching/Teaching Assistant
 venue: "TIFR-CAM"
 location "Bangalore, India"
 ---
