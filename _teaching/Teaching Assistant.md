@@ -1,7 +1,5 @@
 ---
-title: "Teaching Assistant"
-collection: teaching
-permalink: /teaching/Teaching Assistant.md 
+** title: "Teaching Assistant"
 
 type: "Summer School for Undergraduates : SWIM'22"
 
@@ -13,7 +11,7 @@ location: "Bangalore, India"
 
 
 
-title: "Graduate Teaching Assistant"
+** title: "Graduate Teaching Assistant"
 collection: teaching
 
 type: "Graduate Course"
