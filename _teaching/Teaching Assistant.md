@@ -1,6 +1,11 @@
 ---
+title: "Teaching experience 1"
+collection: teaching
+type: "Undergraduate course"
 permalink: /teaching/
-title: "Teaching"
+venue: "University 1, Department"
+date: 2014-01-01
+location: "City, Country"
 ---
 
 ## Teaching Assistant for Undergraduates in [SWIM 2022](https://www.math.tifrbng.res.in/swim)
