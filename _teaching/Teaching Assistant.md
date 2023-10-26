@@ -1,15 +1,13 @@
 ---
-type: "Summer School for Undergraduates : SWIM'22"
-
+title: "Teaching Assistant"
 collection: teaching
-
-permalink: /teaching/Teaching Assistant.md
-
+type: "Undergraduate Course"
+permalink: /teaching/Teaching Assistant
 venue: "TIFR-CAM"
+date: 2014-01-01
+location: "Bangalore, India"
+---
 
-date: june'22
-
-location: "Bangalore, India.
 
 
 
