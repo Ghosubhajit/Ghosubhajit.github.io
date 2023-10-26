@@ -9,7 +9,7 @@ venue: "TIFR-CAM"
 
 date: june'22
 
-location: "Bangalore, India"
+location: "Bangalore, India.
 
 ---
 
