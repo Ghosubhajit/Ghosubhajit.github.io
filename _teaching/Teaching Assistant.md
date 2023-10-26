@@ -1,9 +1,7 @@
 ---
 title: "Teaching Assistant"
-
 collection: teaching
-
-permalink: /teaching/Teaching Assistant 
+permalink: /teaching/Teaching Assistant.md 
 
 type: "Summer School for Undergraduates : SWIM'22"
 
