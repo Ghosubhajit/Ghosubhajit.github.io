@@ -1,9 +1,12 @@
 ---
-title: "Teaching Assistant"
-layout: single-portfolio
-collection: teaching
+permalink: /teaching/
+title: "Teaching"
 ---
 
+## Teaching Assistant for Undergraduates in [SWIM](https://www.math.tifrbng.res.in/swim)
+* Mathematical Logic, real analysis, linear algebra.
+
+## Graduate Teaching Assistant in TIFR-CAM
 * Linear Algebra'20 (July-December)
 
 * Real Analysis'21 (July-December)
