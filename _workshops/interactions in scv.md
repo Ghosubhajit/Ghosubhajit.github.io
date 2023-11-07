@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Workshops and Conferences"
-permalink: /workshops/
+permalink: /workshops/interactions in scv
 author_profile: true
 ---
 
