@@ -12,8 +12,7 @@ I am a final year Integrated Ph.D. student in [TIFR-CAM](https://www.math.tifrbn
 ![Lemniscate of  Chebyshev Polynomial](/images/E.png){: .align-right width="300px"}
 
 Contact me
------------
-gadgfdisagf
+------------
 TIFR-CAM, Room No-109,
 GKVK Post Office
 Sharada Nagar, Chikkabommsandra,
