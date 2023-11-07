@@ -1,9 +1,10 @@
 ---
 layout: archive
-title: "Workshops and conferences"
+title: "Workshops and Conferences"
 permalink: /workshops/
 author_profile: true
 ---
-December 2023
+
 
 ### Interactions in Several Complex Variables
+
