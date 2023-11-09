@@ -190,6 +190,9 @@ collections:
   workshops:
     output: true
     permalink: /:collection/:path/
+  misc:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -225,6 +228,15 @@ defaults:
   - scope:
       path: ""
       type: workshops
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _misc
+  - scope:
+      path: ""
+      type: misc
     values:
       layout: single
       author_profile: true
