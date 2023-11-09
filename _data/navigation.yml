@@ -9,6 +9,6 @@ main:
   - title: "CV"
     url: /files/CV.pdf
 
- - title: "Workshops and Conferences"
-   url: /workshops/
+  - title: "Workshops and Conferences"
+    url: /workshops/
 
