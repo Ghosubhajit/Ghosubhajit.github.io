@@ -1,6 +1,6 @@
 title: "Number of components of polynomial lemniscates: A problem of Erdös, Herzog, and Piranian"
 collection: publications
-permalink: /publication/paper2.md
+permalink: /publication/2009-10-01-paper-title-number-2
 date: 2024-06-15
 venue: 'J. Math. Anal. Appl., 540 (2024), pp. Paper No. 128571,
 21'
