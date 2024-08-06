@@ -2,9 +2,9 @@
 title: "ON THE NUMBER OF COMPONENTS OF RANDOM POLYNOMIAL LEMNISCATES"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
-date: July'23
-venue: 'ArXiv'
-paperurl: 'https://arxiv.org/abs/2306.10795'
+date: 2024
+venue: 'Electron. J. Probab., 29 (2024), p. Paper No. 1'
+paperurl: '[https://arxiv.org/abs/2306.10795](https://projecteuclid.org/journals/electronic-journal-of-probability/volume-29/issue-none/On-the-number-of-components-of-random-polynomial-lemniscates/10.1214/24-EJP1147.full)'
 ---
 
 ### Abstract
