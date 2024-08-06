@@ -1,7 +1,7 @@
 ---
 title: "Teaching Assistant"
 collection: teaching
-type: "Ggraduate course"
+type: "Graduate course"
 permalink: /teaching/TA5
 venue: "TIFR-CAM"
 date: 2024-01-01
