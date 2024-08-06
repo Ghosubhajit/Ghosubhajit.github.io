@@ -2,7 +2,7 @@
 title: "ON THE NUMBER OF COMPONENTS OF RANDOM POLYNOMIAL LEMNISCATES"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
-date: 2024
+date: ''
 venue: 'Electron. J. Probab., 29 (2024), p. Paper No. 1'
 ---
 
