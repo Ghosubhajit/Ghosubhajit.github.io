@@ -3,7 +3,7 @@ title: "Mathematical Logic, Real Analysis, Linear Algebra in SWIM 2022"
 collection: teaching
 type: "Undergraduate course TA"
 permalink: /teaching/Teaching Assistant
-venue: "TIFR-CAM"
+venue: "TIFR-Centre for Applicable Mathematics"
 date: 2022-01-01
 location: "Bangalore, India"
 ---
