@@ -1,20 +1,9 @@
 ---
-title: "Teaching Assistant"
+title: "Functional Analysis"
 collection: teaching
-type: "Graduate course"
+type: "Graduate course TA"
 permalink: /teaching/TA5
-venue: "TIFR-CAM"
+venue: "TIFR-Centre for Applicable Mathematics"
 date: 2024-01-01
 location: "Bangalore, India"
 ---
-
-Functional Analysis in Summer semester.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
