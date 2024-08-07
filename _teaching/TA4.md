@@ -1,20 +1,10 @@
 ---
-title: "Teaching Assistant"
+title: "Complex Analysis"
 collection: teaching
-type: "Graduate course"
+type: "Graduate course TA"
 permalink: /teaching/TA4
-venue: "TIFR-CAM"
+venue: "TIFR-Centre for Applicable Mathematics"
 date: 2023-01-01
 location: "Bangalore, India"
 ---
 
-Complex Analysis in winter semester.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
