@@ -1,20 +1,9 @@
 ---
-title: "Teaching Assistant"
+title: "Real Analysis"
 collection: teaching
-type: "Graduate course"
+type: "Graduate course teaching assistant"
 permalink: /teaching/TA2
 venue: "TIFR-CAM"
 date: 2021-01-01
 location: "Bangalore, India"
 ---
-
-Real Analysis in winter semester.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
