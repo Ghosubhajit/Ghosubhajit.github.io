@@ -1,9 +1,8 @@
 ---
-title: "Interactions in SCV 2023"
+title: "Academic job sites"
 collection: misc
 permalink: /misc/misc1
-date: 2023-01-01
-location: "Pune, India"
 ---
-
-I dont know 
+1) <li class="masthead__menu-item">
+          <a href="https://www.mathjobs.org/jobs?joblist-0-3---0-pt--">Mathjobs.org</a>
+        </li>
