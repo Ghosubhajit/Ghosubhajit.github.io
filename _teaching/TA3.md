@@ -1,20 +1,9 @@
 ---
-title: "Teaching Assistant"
+title: "Probability Theory"
 collection: teaching
-type: "Graduate course"
+type: "Graduate course TA"
 permalink: /teaching/TA3
-venue: "TIFR-CAM"
+venue: "TIFR-Centre for Applicable Mathematics"
 date: 2022-01-01
 location: "Bangalore, India"
 ---
-
-Probability Theory in winter semester.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
