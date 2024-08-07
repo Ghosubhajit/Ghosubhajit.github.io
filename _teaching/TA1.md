@@ -1,8 +1,9 @@
 ---
-title: "Linear Algebra"
+title: "Teaching Assistent for Graduate Courses"
 collection: teaching
 permalink: /teaching/TA1
-date: 2012-08-14
+venue: "TIFR, Centre for Applicable Mathemtics"
+location: "Bangalore, India"
 ---
 
 ---
