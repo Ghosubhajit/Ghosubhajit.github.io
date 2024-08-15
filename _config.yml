@@ -86,7 +86,7 @@ author:
   location         : "Bangalore, India"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : #"http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=dkyfxmYAAAAJ&view_op=list_works&gmla=AC6lMd8yzkgZ4r822LZgpS4tOurs7nAoIC0XIj5KeLQiW9JuDlWGlQlagU0gXOMJg3k-bEUgdHHVA9lByogrPpqu"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
