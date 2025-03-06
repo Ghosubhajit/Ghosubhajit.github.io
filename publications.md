@@ -3,7 +3,7 @@
 classes: wide
 author_profile: true
 title: ""
-permanentlink: /_pages/Publications.md
+permanentlink: publications.md
 ---
 ## Publications
 <ol reversed> 
