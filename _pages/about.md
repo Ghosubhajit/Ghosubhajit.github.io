@@ -13,7 +13,7 @@ I am currently a Postdoctoral Fellow at [ISI Bangalore](https://www.isibang.ac.i
 
 Previously, I was an Integrated Ph.D. student at [TIFR-CAM](https://www.math.tifrbng.res.in), working under the supervision of Prof. [Koushik Ramachandran](https://sites.google.com/site/koushikramachandran/home). My Ph.D. research focused on the metric and topological properties of [polynomial lemniscates](https://en.wikipedia.org/wiki/Polynomial_lemniscate#:~:text=In%20mathematics%2C%20a%20polynomial%20lemniscate,complex%20coefficients%20of%20degree%20n.), both random and deterministic. In my work, I used tools from complex analysis, probability theory, and potential theory.
 
-![Lemniscate of  Chebyshev Polynomial](/images/E.png){: .align-right width="300px"}
+![Lemniscate of  Chebyshev Polynomial](/images/E.png){: .align-right width="500px"}
 
 Contact me
 ------------
