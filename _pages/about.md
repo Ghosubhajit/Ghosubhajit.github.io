@@ -1,8 +1,12 @@
 ---
--<!-- layout: home -->
+permalink: /
 classes: wide
+title: "Hello, I'm Subhajit."
+excerpt: "About me"
 author_profile: true
-permanentlink: /_pages/about.md
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 
 I am currently a Postdoctoral Fellow at [ISI Bangalore](https://www.isibang.ac.in/), working under Prof. [D. Yogeshwaran](https://sites.google.com/site/yogeshwaranacademics/homehttps://sites.google.com/site/yogeshwaranacademics/home) and Prof. [Mathew Joseph](https://sites.google.com/view/mjoseph). My research is part of an externally funded SERB-CRG project titled "Poissonian Shot-Noise Fields and Diffusions." I am learning about the Brownian survival among traps coming from point processes. In addition, I am exploring techniques for obtaining bounds on Markov chain mixing times ([see here](https://sites.google.com/view/entropymc/)).  
