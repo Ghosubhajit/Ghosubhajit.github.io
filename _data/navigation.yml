@@ -4,7 +4,7 @@ main:
     url: /_pages/about.md
     
   - title: "Publications"
-    url: /_pages/publications.md
+    url: /publications.md
 
   - title: "Teaching"
     url: /teaching/    
