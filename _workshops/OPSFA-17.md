@@ -17,7 +17,7 @@ location: "Pune, India"
 <div style="text-align: center;">
     <figure>
         <img src="/files/20240626_230832.jpg" alt="Caption2" style="width: 800px; display: block; margin: 0 auto;">
-        <figcaption>[From right to Left: Prof. Brian Simanek, Prof. Rostyslav Kozhan, Prof. Aron Wennman, Prof. Mañas-Baena, Manuel, Prof. Ana Foulquié Moreno, Prof. Branquinho, Amílcar, Me, Umme Zainab]</figcaption>
+        <figcaption>[From right to Left: Prof. Brian Simanek, Prof. Rostyslav Kozhan, Prof. Aron Wennman, Prof.  Manuel Mañas-Baena, Prof. Ana Foulquié Moreno, Prof. Branquinho Amílcar, Me, Dr. Umme Zainab]</figcaption>
     </figure>
 </div>    
 
