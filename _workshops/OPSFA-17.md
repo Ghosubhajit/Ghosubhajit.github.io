@@ -16,22 +16,40 @@ location: "Pune, India"
 
 <div style="text-align: center;">
     <figure>
-        <img src="/files/20240626_230832.jpg" alt="Caption2" style="width: 500px; display: block; margin: 0 auto;">
+        <img src="/files/20240626_230832.jpg" alt="Caption2" style="width: 800px; display: block; margin: 0 auto;">
         <figcaption>[From right to Left: Prof. Brian Simanek, Prof. Rostyslav Kozhan, Prof. Aron Wennman, Prof. Mañas-Baena, Manuel, Prof. Ana Foulquié Moreno, Prof. Branquinho, Amílcar, Me, Umme Zainab]</figcaption>
     </figure>
 </div>    
+
 <div style="text-align: center;">
     <figure>
-        <img src="/files/20240626_230841.jpg" alt="Caption3" style="width: 500px; display: block; margin: 0 auto;">
+        <img src="/files/20240626_230841.jpg" alt="Caption3" style="width: 800px; display: block; margin: 0 auto;">
         <figcaption>[With Professor Theodore Seio Chihara]</figcaption>
     </figure>
 </div>
+
 <div style="text-align: center;"> 
     <figure>
-        <img src="/files/IMAG_OPSFA1.jpg" alt="Caption4" style="width: 500px; display: block; margin: 0 auto;">
+        <img src="/files/IMAG_OPSFA1.jpg" alt="Caption4" style="width: 800px; display: block; margin: 0 auto;">
         <figcaption>[Group Photo]</figcaption>
     </figure>
 </div>
+
+<div style="text-align: center;">
+    <figure style="display: inline-block; text-align: center;">
+        <img src="/files/20240626_230832.jpg" alt="[From right to Left: Prof. Brian Simanek, Prof. Rostyslav Kozhan, Prof. Aron Wennman, Prof. Mañas-Baena, Manuel, Prof. Ana Foulquié Moreno, Prof. Branquinho, Amílcar, Me, Umme Zainab]" style="width: 800px;">
+        <figcaption style="display: block; text-align: center;">Caption2</figcaption>
+    </figure>
+    <figure style="display: inline-block; text-align: center;">
+        <img src="/files/20240626_230841.jpg" alt="[With Professor Theodore Seio Chihara]" style="width: 800px;">
+        <figcaption style="display: block; text-align: center;">Caption3</figcaption>
+    </figure>
+    <figure style="display: inline-block; text-align: center;">
+        <img src="/files/IMAG_OPSFA1.jpg" alt="Caption4" style="width: 800px;">
+        <figcaption style="display: block; text-align: center;">[Group Photo]</figcaption>
+    </figure>
+</div>
+
 
 
 
