@@ -12,7 +12,10 @@ location: "Pune, India"
 
 [Website](https://opsfa17.com/)
 
-![Group Picture](/files/IW2024-06-24 a las 21.26.03_37acb230.jpg){: .align-right width="100px"}
+(/files/IW2024-06-24 a las 21.26.03_37acb230.jpg){: .align-right width="100px"}
+(/files/20240626_230832.jpg){: .align-right width="100px"}
+(/files/20240626_230841.jpg){: .align-right width="100px"}
+(/files/IMAG_OPSFA1.jpg){: .align-right width="100px"}
 
 
 
