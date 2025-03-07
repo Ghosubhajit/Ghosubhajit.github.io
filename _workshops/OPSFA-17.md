@@ -12,6 +12,8 @@ location: "Pune, India"
 
 [Website](https://opsfa17.com/)
 
+### Some Pictures from the conference
+
 ![Caption1](/files/image2.jpg){: .align-right width="100px"}
 ![Caption2](/files/20240626_230832.jpg){: .align-right width="100px"}
 ![Caption3](/files/20240626_230841.jpg){: .align-right width="100px"}
