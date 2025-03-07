@@ -9,7 +9,12 @@ location: "Kerala, India"
 ---
 Interactions in SCV 2023
 Kerala School of Mathematics (KSoM)
-======
 
+<div style="text-align: center;">
+    <figure>
+        <img src="/files/SCV-2022.jpg" alt="Caption2" style="width: 500px; display: block; margin: 0 auto;">
+        <figcaption>[Group Photo]</figcaption>
+    </figure>
+</div>    
 
 
