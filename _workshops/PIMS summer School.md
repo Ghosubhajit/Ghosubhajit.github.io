@@ -15,21 +15,21 @@ location: "Montreal, Canada"
 
 <div style="text-align: center;">
     <figure>
-        <img src="/files/20240626_230832.jpg" alt="Caption2" style="width: 800px; display: block; margin: 0 auto;">
-        <figcaption></figcaption>
+        <img src="/files/PIMS (Tractor Group).jpg" alt="Caption2" style="width: 800px; display: block; margin: 0 auto;">
+        <figcaption>[Card game squad in action! ♠️♥️♦️♣️]</figcaption>
     </figure>
 </div>    
 
 <div style="text-align: center;">
     <figure>
-        <img src="/files/20240626_230841.jpg" alt="Caption3" style="width: 800px; display: block; margin: 0 auto;">
+        <img src="/files/PIMS(Manan and co).jpg" alt="Caption3" style="width: 800px; display: block; margin: 0 auto;">
         <figcaption></figcaption>
     </figure>
 </div>
 
 <div style="text-align: center;"> 
     <figure>
-        <img src="/files/IMAG_OPSFA1.jpg" alt="Caption4" style="width: 800px; display: block; margin: 0 auto;">
+        <img src="/files/IMG-With Dechal and Bas.jpg" alt="Caption4" style="width: 800px; display: block; margin: 0 auto;">
         <figcaption></figcaption>
     </figure>
 </div>
