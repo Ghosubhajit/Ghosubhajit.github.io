@@ -29,10 +29,14 @@ location: "Montreal, Canada"
 
 <div style="text-align: center;"> 
     <figure>
-        <img src="/files/IMG-With Dechal and Bas.jpg" alt="Caption4" style="width: 800px; display: block; margin: 0 auto;">
-        <figcaption>[[With Daecheol Kim](https://math.illinois.edu/directory/profile/dk43) and [Bas Lodewijks](https://sites.google.com/view/bas-lodewijks/home?authuser=0)]</figcaption>
+        <img src="/files/IMG-With Dechal and Bas.jpg" alt="With Daecheol Kim and Bas Lodewijks" style="width: 800px; display: block; margin: 0 auto;">
+        <figcaption>
+            <a href="https://math.illinois.edu/directory/profile/dk43" target="_blank">With Daecheol Kim</a> and 
+            <a href="https://sites.google.com/view/bas-lodewijks/home?authuser=0" target="_blank">Bas Lodewijks</a>
+        </figcaption>
     </figure>
 </div>
+
 
 <div style="text-align: center;"> 
     <figure>
