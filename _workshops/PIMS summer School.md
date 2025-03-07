@@ -47,7 +47,7 @@ location: "Montreal, Canada"
 
 <div style="text-align: center;"> 
     <figure>
-        <img src="/files/Nature2.jpg" alt="Caption4" style="width: 800px; display: block; margin: 0 auto;">
+        <img src="/files/Nature4.jpg" alt="Caption4" style="width: 800px; display: block; margin: 0 auto;">
         <figcaption>[Montréal]</figcaption>
     </figure>
 </div>
