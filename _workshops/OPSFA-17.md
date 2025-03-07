@@ -11,7 +11,7 @@ Granada, Spain.
 ====
 [Website](https://opsfa17.com/)
 ##### 
-![](/files/IW2024-06-24 a las 21.26.03_37acb230.jpg){: .align-right width="100px"}
+![Group Picture](/files/IW2024-06-24 a las 21.26.03_37acb230.jpg){: .align-right width="100px"}
 
 
 
