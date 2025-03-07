@@ -17,4 +17,10 @@ Kerala School of Mathematics (KSoM)
     </figure>
 </div>    
 
+<div style="text-align: center;">
+    <figure style="display: inline-block; text-align: center;">
+        <img src="/files/SCV-2022.jpg" alt="[Group Photo]" style="width: 400px;">
+        <figcaption style="display: block; text-align: center;">Caption1</figcaption>
+    </figure>
+</div>
 
