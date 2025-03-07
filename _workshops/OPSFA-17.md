@@ -14,10 +14,12 @@ location: "Pune, India"
 
 ### Some Pictures from the conference
 
-![Caption1](/files/image2.jpg){: .align-right width="100px"}
-![Caption2](/files/20240626_230832.jpg){: .align-right width="100px"}
-![Caption3](/files/20240626_230841.jpg){: .align-right width="100px"}
-![Caption4](/files/IMAG_OPSFA1.jpg){: .align-right width="100px"}
+<div style="text-align: center;">
+    <img src="/files/20240626_230832.jpg" alt="Caption2" width="300px"><br>Caption2
+    <img src="/files/20240626_230841.jpg" alt="Caption3" width="300px"><br>Caption3
+    <img src="/files/IMAG_OPSFA1.jpg" alt="Caption4" width="300px"><br>Caption4
+</div>
+
 
 
 
