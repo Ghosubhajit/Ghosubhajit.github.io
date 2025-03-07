@@ -23,16 +23,33 @@ location: "Montreal, Canada"
 <div style="text-align: center;">
     <figure>
         <img src="/files/PIMS(Manan and co).jpg" alt="Caption3" style="width: 800px; display: block; margin: 0 auto;">
-        <figcaption></figcaption>
+        <figcaption>[Right to left: Me, Manan, Daecheol, Swarnadeep, Seoeon]</figcaption>
     </figure>
 </div>
 
 <div style="text-align: center;"> 
     <figure>
         <img src="/files/IMG-With Dechal and Bas.jpg" alt="Caption4" style="width: 800px; display: block; margin: 0 auto;">
-        <figcaption></figcaption>
+        <figcaption>[[With Daecheol Kim](https://math.illinois.edu/directory/profile/dk43) and [Bas Lodewijks](https://sites.google.com/view/bas-lodewijks/home?authuser=0)]</figcaption>
     </figure>
 </div>
+
+<div style="text-align: center;"> 
+    <figure>
+        <img src="/files/Nature1.jpg" alt="Caption4" style="width: 800px; display: block; margin: 0 auto;">
+        <figcaption>[Lost in the hues of 🍁]</figcaption>
+    </figure>
+</div>
+
+
+<div style="text-align: center;"> 
+    <figure>
+        <img src="/files/Nature2.jpg" alt="Caption4" style="width: 800px; display: block; margin: 0 auto;">
+        <figcaption>[Montréal Ferris wheel! 🎡]</figcaption>
+    </figure>
+</div>
+
+
 
 
 
