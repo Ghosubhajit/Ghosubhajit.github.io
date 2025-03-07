@@ -41,10 +41,16 @@ location: "Montreal, Canada"
     </figure>
 </div>
 
-
 <div style="text-align: center;"> 
     <figure>
         <img src="/files/Nature2.jpg" alt="Caption4" style="width: 800px; display: block; margin: 0 auto;">
+        <figcaption>[Montréal]</figcaption>
+    </figure>
+</div>
+
+<div style="text-align: center;"> 
+    <figure>
+        <img src="/files/Nature3.jpg" alt="Caption4" style="width: 800px; display: block; margin: 0 auto;">
         <figcaption>[Montréal Ferris wheel! 🎡]</figcaption>
     </figure>
 </div>
