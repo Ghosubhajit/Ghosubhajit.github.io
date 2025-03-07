@@ -12,14 +12,9 @@ Kerala School of Mathematics (KSoM)
 
 <div style="text-align: center;">
     <figure>
-        <img src="/files/SCV-2022.jpg" alt="[Group Photo]" style="width: 800px; display: block; margin: 0 auto;">
-        <figcaption>[Group Photo]</figcaption>
+        <img src="/files/SCV-2022.jpg" alt="Caption2" style="width: 800px; display: block; margin: 0 auto;">
+        <figcaption>[Group Picture]</figcaption>
     </figure>
-</div>    
+</div> 
 
-<div style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
-    <figure style="text-align: center;">
-        <img src="/files/SCV-2022.jpg" alt="Caption1" style="width: 400px;">
-        <figcaption>Caption1</figcaption>
-    </figure>
 
