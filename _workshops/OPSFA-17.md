@@ -15,7 +15,7 @@ location: "Pune, India"
 ### Some Pictures from the conference
 
 <div style="text-align: center;">
-    <img src="/files/20240626_230832.jpg" alt="Caption2" width="300px"><br>Caption2
+    <img src="/files/20240626_230832.jpg" alt="Caption2" width="300px"><be>[With]
     <img src="/files/20240626_230841.jpg" alt="Caption3" width="300px"><br>Caption3
     <img src="/files/IMAG_OPSFA1.jpg" alt="Caption4" width="300px"><br>Caption4
 </div>
