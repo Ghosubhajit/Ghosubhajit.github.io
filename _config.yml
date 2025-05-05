@@ -110,12 +110,11 @@ author:
   steam            :
   tumblr           :
   twitter          : #"replacethistwitterhandle"
-  vine             :
   weibo            :
   xing             :
   youtube          :
-  wikipedia        :
-
+  Wikipedia        :
+  mathscinet       :# "https://mathscinet-ams-org.libraryisikolkata.remotexs.in/mathscinet/MRAuthorID/1617820"
 
 # Reading Files
 include:
