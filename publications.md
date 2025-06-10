@@ -8,6 +8,8 @@ permanentlink: /_pages/publications.md
 
 ## Publications
 
+<ol> 
+
 <li> Subhajit Ghosh, "On the number of components of random polynomial lemniscates", <i>Electron. J. Probab.</i>, 29 (2024), Paper No. 1. 
 [<a href="https://arxiv.org/abs/2306.10795">Arxiv</a>], [<a href="https://projecteuclid.org/journals/electronic-journal-of-probability/volume-29/issue-none/On-the-number-of-components-of-random-polynomial-lemniscates/10.1214/24-EJP1147.full">Journal</a>] 
 </li>
