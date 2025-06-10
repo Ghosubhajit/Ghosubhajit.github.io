@@ -1,5 +1,5 @@
 ---
-title: "Academic job sites"
+title: "Some interesting websites"
 collection: misc
 permalink: /misc/misc2
 ---
@@ -7,20 +7,10 @@ permalink: /misc/misc2
 ---
 
 
-1)[Mathjobs.org](https://www.mathjobs.org/jobs?joblist-0-3---0-pt--)
+1)[Website for Erdos problems.
+](https://www.erdosproblems.com/all)
 
+2) [An inspiring story](https://www.quantamagazine.org/yitang-zhang-proves-landmark-theorem-in-distribution-of-prime-numbers-20130519/
 
-2)[Mathhire.org](https://mathhire.org/jobs/academia)
-
-
-3)[EMS](https://euromathsoc.org/jobs)
-
-4)[UK mathjobs](https://www.jobs.ac.uk/search/? keywords=Post+doc&activeFacet=contractTypeFacet&resetFacet=academicDisciplineFacet&sortOrder=0&pageSize=25&startIndex=1&academicDisciplineFacet%5B0%5D=mathematics-and-statistics&subDisciplineFacet%5B0%5D=mathematics)
-
-5)[Applied Probability Trust](https://www.appliedprobability.org/jobs)
-
-6)[Operation Postes](http://postes.smai.emath.fr/postdoc/)
-
-7)[Mathematical Physics](https://www.iamp.org/page.php?page=page_positions)
-
-   
+https://mleddy.blogspot.com/2005/01/how-to-e-mail-professor.html
+)
