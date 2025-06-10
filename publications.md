@@ -1,5 +1,5 @@
 ---
-layout: no-title-post
+-<!-- layout: no-title-post -->
 classes: wide
 author_profile: true
 title: ""
