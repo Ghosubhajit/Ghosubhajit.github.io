@@ -21,5 +21,5 @@ permanentlink: /_pages/publications.md
 ## Thesis
 
 Subhajit Ghosh, "On the number of connected components of polynomial lemniscates: Deterministic and Random", Ph.D. Thesis,  
-Tata Institute of Fundamental Research, Centre for Applicable Mathematics, 2025.  
+TIFR-Centre for Applicable Mathematics, 2025.  
 [<a href="https://drive.google.com/drive/folders/1IdEm7g7jSdmMId4-bUjVWPhFGBJPcARJ?usp=drive_link">Drive Link</a>], [<a href="https://shodhganga.inflibnet.ac.in/handle/10603/632493">Shodhganga</a>]
