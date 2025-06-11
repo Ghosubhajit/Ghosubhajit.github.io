@@ -16,5 +16,7 @@ permalink: /misc/misc2
 
 4)[``You and Your Research''- By Richard Hamming](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html)
 
-5)
+5)[AIM Open Problem List](http://aimpl.org/)
+
+6)[Some more useful links From Prof. Yogeshwaran's collection](https://sites.google.com/site/yogeshwaranacademics/home/mathematical-miscellany)
 
