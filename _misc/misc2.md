@@ -12,3 +12,9 @@ permalink: /misc/misc2
 
 2)[An inspiring story](https://www.quantamagazine.org/yitang-zhang-proves-landmark-theorem-in-distribution-of-prime-numbers-20130519/https://mleddy.blogspot.com/2005/01/how-to-e-mail-professor.html)
 
+3)[Some Career Advice for Postdocs and Grad Students](https://kimballmartin.github.io/career-ad.html)
+
+4)[``You and Your Research''- By Richard Hamming](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html)
+
+5)
+
