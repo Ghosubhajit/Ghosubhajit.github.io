@@ -13,7 +13,7 @@ main:
     url: /workshops/
 
   - title: "Activity"
-    url: /act/
+    url: /act
 
   - title: "Miscellaneous"
     url: /misc/
