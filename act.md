@@ -1,7 +1,7 @@
 ---
 title: "Academic job sites"
 collection: misc
-permalink: /misc/misc1
+permanentlink: /act.md/
 ---
 
 ---
