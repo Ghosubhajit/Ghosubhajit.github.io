@@ -8,7 +8,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
+------------
 <br>
 
 I am currently a Postdoctoral Fellow at the [The Department of Mathematics](https://math.biu.ac.il/en), 
