@@ -1,5 +1,5 @@
 ---
-title: "Academic job sites"
+title: "Past and Current Activities"
 collection: misc
 permanentlink: /act.md/
 ---
