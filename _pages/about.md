@@ -8,6 +8,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
+
 I am currently a Postdoctoral Fellow at the [The Department of Mathematics](https://math.biu.ac.il/en), 
 [Bar-Ilan University](https://www.biu.ac.il/en), working with prof. [Naomi Feldheim](https://u.cs.biu.ac.il/~feldhen/).
 
@@ -20,8 +22,9 @@ I completed my Integrated Ph.D. from [TIFR-CAM](https://www.math.tifrbng.res.in)
 Contact me
 ------------
 Room No-011, Building 216, The Department of Mathematics
-Bar-Ilan University, Ramat-Gan, Israel, 52900
+Bar-Ilan University,
+Ramat-Gan, Israel, 52900
 
 Email
 -------
- shubhajitghosh1998[at]gmail[dot]com, subhajitg[at]tifrbng[dot]res[dot]in, subhajit[underscore]pd[at]isibang[dot]ac[dot]in
+shubhajitghosh1998[at]gmail[dot]com, ghoshsu1[at]biu[dot]ac[dot]il
