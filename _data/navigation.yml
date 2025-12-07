@@ -12,6 +12,9 @@ main:
   - title: "Workshops and Conferences"
     url: /workshops/
 
+  - title: "Activity"
+    url: /act/
+
   - title: "Miscellaneous"
     url: /misc/
 
