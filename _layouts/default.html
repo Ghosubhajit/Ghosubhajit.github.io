@@ -1,3 +1,16 @@
+---
+layout: compress
+---
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
   <body>
 
     {% include browser-upgrade.html %}
@@ -11,8 +24,9 @@
         {% include footer.html %}
 
         <!-- Visitor counter -->
-        <img src="https://hitscounter.dev/api/hit?url=https%3A%2F%2Fghosubhajit.github.io%2F&label=&icon=github&color=%2359359a&message=&style=for-the-badge&tz=Israel"
-             alt="Visitor counter">
+        <img
+          src="https://hitscounter.dev/api/hit?url=https%3A%2F%2Fghosubhajit.github.io%2F&label=&icon=github&color=%2359359a&message=&style=for-the-badge&tz=Israel"
+          alt="Visitor counter">
       </footer>
     </div>
 
