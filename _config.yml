@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Subhajit Ghosh"
   avatar           : "IMG_62231.png"
-  bio              : "Post Doctoral Fellow at ISI Bangalore"
-  location         : "Bangalore, India"
+  bio              : "Post Doctoral Fellow at Bar-Ilan University: Department of Mathematics"
+  location         : "Ramat Gan, Tel Aviv District, Israel"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=dkyfxmYAAAAJ&view_op=list_works&gmla=AC6lMd8yzkgZ4r822LZgpS4tOurs7nAoIC0XIj5KeLQiW9JuDlWGlQlagU0gXOMJg3k-bEUgdHHVA9lByogrPpqu"
@@ -114,7 +114,7 @@ author:
   xing             :
   youtube          :
   Wikipedia        : "mathscinet-ams-org.libraryisikolkata.remotexs.in/mathscinet/MRAuthorID/1617820"
-  Mathscinet       : "mathscinet-ams-org.libraryisikolkata.remotexs.in/mathscinet/MRAuthorID/1617820"
+  Mathscinet       : "https://mathscinet.ams.org/mathscinet/author?authorId=1617820"
 
 # Reading Files
 include:
