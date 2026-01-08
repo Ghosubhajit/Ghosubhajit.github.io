@@ -1,5 +1,5 @@
 ---
-title: "Some interesting websites"
+title: "Some other interesting websites"
 collection: misc
 permalink: /misc/misc2
 ---
@@ -19,4 +19,8 @@ permalink: /misc/misc2
 5)[AIM Open Problem List](http://aimpl.org/)
 
 6)[Some more useful links From Prof. Yogeshwaran's collection](https://sites.google.com/site/yogeshwaranacademics/home/mathematical-miscellany)
+
+7) A nice [page on the Early Career (and similar topics)](https://www.angelagibney.org/the-ec-by-topic/) mentained by Professor Angela GIBNEY.
+
+   
 
