@@ -6,7 +6,7 @@ permanentlink: /act.md/
 
 ---
 *On January 19, 2026, I presented at the BIAP seminar at Bar-Ilan University, discussing how probabilistic methods are used to establish deterministic bounds for the number of connected components in polynomial lemniscates.<p>
-  <a href="{{ site.baseurl }}/files/BIAP_seminar_Jan_19_2026 (for upload).pdf" target="_blank" style="background-color: #007bff; color: white; padding: 10px 15px; text-decoration: none; border-radius: 3px; font-weight: bold;">
+  <a href="{{ site.baseurl }}/files/BIAP_seminar_Jan_19_2026 (for upload).pdf" target="_blank" style="background-color: #007bff; color: white; padding: 7px 10px; text-decoration: none; border-radius: 3px; font-weight: bold;">
     View Slides (PDF)
   </a>
 </p>
