@@ -9,6 +9,8 @@ layout: compress
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
   </head>
 
   <body>
@@ -23,10 +25,16 @@ layout: compress
     {% include footer/custom.html %}
     {% include footer.html %}
 
-    <img src="https://api.visitorbadge.io/api/visitors?path=ghosubhajit.github.io&label=VISITORS&countColor=%2359359a" 
-         alt="Visitor counter">
-         
-  </footer>
+    <div style="margin-top: 10px; font-size: 0.8em; color: #666;">
+      <span id="busuanzi_container_site_pv" style="display:none">
+        Total Views: <span id="busuanzi_value_site_pv"></span> | 
+      </span>
+      
+      <span id="busuanzi_container_site_uv" style="display:none">
+        Unique Visitors: <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </div>
+    </footer>
 </div>
 
     {% include scripts.html %}
