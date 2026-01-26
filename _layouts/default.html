@@ -11,6 +11,7 @@ layout: compress
     {% include head/custom.html %}
     
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   </head>
 
   <body>
@@ -25,13 +26,20 @@ layout: compress
     {% include footer/custom.html %}
     {% include footer.html %}
 
-    <div style="margin-top: 10px; font-size: 0.8em; color: #666;">
-      <span id="busuanzi_container_site_pv" style="display:none">
-        Total Views: <span id="busuanzi_value_site_pv"></span> | 
-      </span>
-      
-      <span id="busuanzi_container_site_uv" style="display:none">
-        Unique Visitors: <span id="busuanzi_value_site_uv"></span>
+    <div style="margin-top: 15px; text-align: center;">
+      <span id="busuanzi_container_site_uv" style="
+          display:none; 
+          background-color: #f3f6f9; 
+          border: 1px solid #e1e4e8; 
+          padding: 6px 12px; 
+          border-radius: 20px; 
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
+          font-size: 0.85em; 
+          color: #586069; 
+          box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+      ">
+        <i class="fas fa-user" style="color: #59359a; margin-right: 5px;"></i>
+        Visitors: <span id="busuanzi_value_site_uv" style="font-weight: bold; color: #24292e;"></span>
       </span>
     </div>
     </footer>
