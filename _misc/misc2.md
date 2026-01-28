@@ -2,6 +2,7 @@
 title: "Some other interesting websites"
 collection: misc
 permalink: /misc/misc2
+share: false
 ---
 
 ---
@@ -23,7 +24,11 @@ permalink: /misc/misc2
 7)A nice [page on the Early Career (and similar topics)](https://www.angelagibney.org/the-ec-by-topic/) mentained by Professor Angela GIBNEY.
 
 
-
+<style>
+  .page__pagination {
+    display: none !important;
+  }
+</style>
 
 
 
