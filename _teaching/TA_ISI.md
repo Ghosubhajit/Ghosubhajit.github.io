@@ -2,7 +2,7 @@
 title: "Introduction to stochastic processes"
 collection: teaching
 type: "Graduate course TA"
-permalink: /teaching/TA ISI
+permalink: /teaching/TA_ISI
 venue: "ISI Bangalore"
 date: 2025-01-01
 location: "Bangalore, India"
