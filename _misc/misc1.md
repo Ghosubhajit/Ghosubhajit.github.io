@@ -3,6 +3,8 @@ title: "Academic job sites"
 collection: misc
 permalink: /misc/misc1
 share: false
+pagination: false  
+related: false      
 ---
 
 ---
@@ -23,5 +25,6 @@ share: false
 6)[Operation Postes](http://postes.smai.emath.fr/postdoc/)
 
 7)[Mathematical Physics](https://www.iamp.org/page.php?page=page_positions)
+
 
    
