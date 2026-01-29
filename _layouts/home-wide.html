@@ -5,44 +5,73 @@ layout: default
 {% include base_path %}
 
 <style>
-  /* A. The Flex Container */
+  /* --- 1. MOBILE DEFAULTS (Phone & Tablet) --- */
+  /* By default, we STACK things vertically. This fixes the mobile view. */
   .flex-wrapper {
-    display: flex !important;
-    width: 98vw !important;
-    max-width: 98vw !important;
+    display: block !important;
+    width: 95% !important; /* Use 95% of phone screen */
     margin: 0 auto !important;
-    align-items: flex-start !important;
   }
-
-  /* B. The Sidebar Container (The "Frame") */
-  /* We keep the frame wide (320px), but we will shrink the content inside it below */
+  
   .custom-sidebar {
-    width: 340px !important;      
-    min-width: 320px !important;  
-    margin-right: 25px !important; 
-    padding: 0 !important;
-    font-size: 0.9em !important; 
+    width: 100% !important; /* Full width on phone */
+    margin-right: 0 !important;
+    margin-bottom: 30px !important; /* Gap between pic and bio */
+    text-align: center !important; /* Center the text on phone */
   }
 
-  /* C. The Picture & Bio (The "Painting") */
-  /* Shrink to 80% and Center it */
+  /* Center the image on mobile */
   .custom-sidebar .author__avatar img,
   .custom-sidebar .author__content,
   .custom-sidebar .sidebar {
-    width: 90% !important;        /* <--- CHANGED: 80% width */
-    max-width: 90% !important;
+    width: 60% !important; /* Smaller image on phone looks better */
+    max-width: 250px !important; 
+    margin: 0 auto !important; /* Center it */
     display: block !important;
-    margin-left: auto !important; /* <--- ADDED: Push from left */
-    margin-right: auto !important;/* <--- ADDED: Push from right (Centers it) */
-    padding-right: 0 !important;
   }
 
-  /* D. The Content (Auto-Fills the rest) */
   .custom-content {
-    flex: 1 !important;
-    width: auto !important;
-    margin: 0 !important;
+    width: 100% !important;
     padding: 0 !important;
+  }
+
+  /* --- 2. DESKTOP OVERRIDES (Computer Only) --- */
+  /* This code ONLY activates if the screen is wider than 1024px (Laptops/PCs) */
+  @media (min-width: 64em) {
+    
+    /* Turn on the "Side-by-Side" Flexbox */
+    .flex-wrapper {
+      display: flex !important;
+      flex-direction: row !important;
+      width: 98vw !important;
+      max-width: 98vw !important;
+      align-items: flex-start !important;
+    }
+
+    /* Restore the Fixed Sidebar Width (320px) */
+    .custom-sidebar {
+      width: 320px !important;
+      min-width: 320px !important;
+      margin-right: 25px !important;
+      margin-bottom: 0 !important;
+      text-align: left !important; /* Left align on computer */
+    }
+
+    /* Restore the "80% Width" look you liked for Desktop */
+    .custom-sidebar .author__avatar img,
+    .custom-sidebar .author__content,
+    .custom-sidebar .sidebar {
+      width: 90% !important;
+      max-width: 90% !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+
+    /* Content takes remaining space */
+    .custom-content {
+      flex: 1 !important;
+      width: auto !important;
+    }
   }
 </style>
 
