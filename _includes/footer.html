@@ -5,6 +5,7 @@
     {% if site.data.ui-text[site.locale].follow_label %}
       <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
     {% endif %}
+
     {% if site.twitter.username %}
       <li><a href="https://twitter.com/{{ site.twitter.username }}"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
     {% endif %}
@@ -17,6 +18,7 @@
     {% if site.author.bitbucket %}
       <li><a href="https://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
     {% endif %}
+    
     <li>
       <a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}">
         <i class="fa fa-fw fa-rss-square" aria-hidden="true"></i>
@@ -25,15 +27,6 @@
     </li>
   </ul>
 </div>
-
-<!-- Visitor counter (block-level so footer CSS doesn't distort it) -->
-<!-- <div class="page__footer-visitor-counter" style="margin: 12px 0; text-align: center;">
-  <img
-    src="https://hitscounter.dev/api/hit?url=https%3A%2F%2Fghosubhajit.github.io%2F&label=&icon=github&color=%2359359a&message=&style=for-the-badge&tz=Israel"
-    alt="Visitor counter"
-    loading="lazy"
-    style="display: inline-block; height: 28px; width: auto; max-width: 100%; vertical-align: middle;" />
-</div> -->
 
 <div class="page__footer-copyright">
   &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.
@@ -45,7 +38,7 @@
 </div>
 
 <style>
-  .page__footer-copyright a[href$="sitemap/"] {
+  .page__footer-copyright a[href*="sitemap"] {
     display: none !important;
   }
 </style>
