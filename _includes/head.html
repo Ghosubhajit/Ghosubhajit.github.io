@@ -1,4 +1,4 @@
-{% include base_path %}
+<!-- {% include base_path %}
 
 <meta charset="utf-8">
 
@@ -16,5 +16,50 @@
 
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
 
-<meta http-equiv="cleartype" content="on">
+<meta http-equiv="cleartype" content="on"> -->
+
+
+
+
+
+{% if page.url == "/" %}
+<style>
+  @media (min-width: 64em) {
+    
+    /* 1. UNLOCK THE MAIN FRAME */
+    .page__inner-wrap {
+      max-width: 95vw !important;
+      width: 95vw !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+
+    /* 2. FIX THE LEFT SIDEBAR (Profile) */
+    .sidebar {
+      width: 20% !important;
+      float: left !important;
+      display: block !important;
+      margin-right: 2% !important;
+      z-index: 10; /* Ensure it stays on top */
+    }
+
+    /* 3. EXPAND TEXT & KILL THE RIGHT MARGIN */
+    .page__content {
+      width: 78% !important; /* Fills the rest of the space */
+      max-width: 78% !important;
+      float: right !important;
+      margin-right: 0 !important;
+      padding-right: 0 !important;
+    }
+
+    /* 4. DELETE THE GHOST COLUMN (Crucial) */
+    .sidebar__right, .toc, .toc__menu {
+      display: none !important;
+      width: 0 !important;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+  }
+</style>
+{% endif %}
 
