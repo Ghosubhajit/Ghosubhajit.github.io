@@ -23,7 +23,7 @@ layout: default
   .custom-sidebar .author__avatar img,
   .custom-sidebar .author__content,
   .custom-sidebar .sidebar {
-    width: 100% !important; /* Fixed typo: Set to 100% for perfect mobile fit */
+    width: 100% !important; 
     max-width: 100% !important; 
     margin: 0 auto !important; 
     display: block !important;
@@ -35,7 +35,6 @@ layout: default
   }
 
   /* --- 2. DESKTOP OVERRIDES (Computer Only) --- */
-  /* This section only activates on larger screens */
   @media (min-width: 64em) {
     
     .flex-wrapper {
@@ -54,7 +53,7 @@ layout: default
       text-align: left !important; 
     }
 
-    /* Keep Desktop Picture at 90% (Your preference) */
+    /* Desktop Picture Width (90%) */
     .custom-sidebar .author__avatar img,
     .custom-sidebar .author__content,
     .custom-sidebar .sidebar {
@@ -67,6 +66,12 @@ layout: default
     .custom-content {
       flex: 1 !important;
       width: auto !important;
+    }
+
+    /* *** NEW: DESKTOP GAP FIX *** */
+    /* This adds space below the title ONLY on computers */
+    .page__title {
+      margin-bottom: 50px !important; /* <--- Change this number to increase/decrease gap */
     }
   }
 </style>
@@ -82,11 +87,12 @@ layout: default
       
       {% if page.title %}
         <header>
-          <h1 class="page__title" itemprop="headline" style="margin-top: 0; padding-top: 0; line-height: 1;">
+          <h1 class="page__title" itemprop="headline" style="padding-top: 0; line-height: 1;">
             {{ page.title | markdownify | strip_html | strip_newlines | escape_once }}
           </h1>
         </header>
       {% endif %}
+      
       <section class="page__content" itemprop="text">
         {{ content }}
       </section>
