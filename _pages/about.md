@@ -7,7 +7,6 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
-classes: wide
 ---
 ------------
 ------------
@@ -30,3 +29,21 @@ Israel, 52900
 Email
 -------
 shubhajitghosh1998[at]gmail[dot]com  <br> ghoshsu1[at]biu[dot]ac[dot]il  <br> subhajitg[at]tifrbng[dot]res[dot]in
+
+<style>
+  /* Force this specific page to be wider on computers */
+  @media (min-width: 64em) {
+    /* 1. Expand the outer container */
+    .page__inner-wrap {
+      max-width: 95% !important;
+      width: 95% !important;
+    }
+
+    /* 2. Expand the text area but KEEP it to the right of the sidebar */
+    .page__content {
+      width: 75% !important;    /* Leaves 25% space for your sidebar */
+      max-width: 100% !important;
+      float: right !important;  /* Ensures it sits next to sidebar, not below */
+    }
+  }
+</style>
