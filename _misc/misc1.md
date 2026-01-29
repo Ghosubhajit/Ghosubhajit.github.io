@@ -2,9 +2,7 @@
 title: "Academic job sites"
 collection: misc
 permalink: /misc/misc1
-share: false
-pagination: false  
-related: false      
+share: false  
 ---
 
 ---
