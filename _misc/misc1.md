@@ -27,4 +27,17 @@ related: false
 7)[Mathematical Physics](https://www.iamp.org/page.php?page=page_positions)
 
 
+
+
+
+
+<style>
+  .pagination, .page__pagination, .pager, .page-navigation, nav.pagination {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    width: 0 !important;
+  }
+</style>
+
    
