@@ -21,10 +21,23 @@
 
 
 
+
+
 {% if page.url == "/" %}
 <style>
   @media (min-width: 64em) {
-    /* 1. MAKE THE FRAME WIDE (Use 95% of screen) */
+    
+    /* --- 1. REMOVE THE TOP GAP --- */
+    /* This pulls the content up to touch the menu */
+    .page__inner-wrap {
+      margin-top: 0 !important;
+      padding-top: 10px !important; /* Tiny gap just so it doesn't hit the line */
+    }
+    .page {
+      margin-top: 0 !important;
+    }
+
+    /* --- 2. MAKE THE FRAME WIDE --- */
     .page__inner-wrap {
       max-width: 95vw !important;
       width: 95vw !important;
@@ -32,28 +45,28 @@
       margin-right: auto !important;
     }
 
-    /* 2. SIDEBAR (Left Panel) */
+    /* --- 3. SIDEBAR (Left Panel) --- */
     .sidebar {
       width: 20% !important;
       float: left !important;
-      margin-right: 3% !important; /* Spacing between pic and text */
+      margin-right: 3% !important;
       display: block !important;
+      margin-top: 0 !important; /* Pull sidebar up too */
     }
 
-    /* 3. CONTENT (Right Panel) */
-    /* We use 75% to ensure it fits next to the sidebar without dropping */
+    /* --- 4. CONTENT (Right Panel) --- */
     .page__content {
       width: 75% !important; 
-      float: left !important; /* Float LEFT to stick it to the sidebar */
+      float: left !important; 
       margin-right: 0 !important;
       padding-right: 0 !important;
+      margin-top: 0 !important; /* Pull text up too */
     }
 
-    /* 4. REMOVE GHOST ELEMENTS */
+    /* --- 5. REMOVE GHOST ELEMENTS --- */
     .sidebar__right, .toc, .toc__menu {
       display: none !important;
     }
   }
 </style>
 {% endif %}
-
