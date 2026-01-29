@@ -1,4 +1,4 @@
-{% include base_path %}
+<!-- {% include base_path %}
 
 <!-- start custom head snippets -->
 
@@ -34,5 +34,38 @@
   });
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
+
+
+---
+layout: default
+---
+
+{% include base_path %}
+
+<div id="main" role="main" style="width: 98vw; max-width: 98vw; margin-left: auto; margin-right: auto; margin-top: 0; padding-top: 0;">
+
+  <div class="sidebar sticky" style="width: 300px; float: left; margin-right: 20px; display: block;">
+    {% include sidebar.html %}
+  </div>
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork" style="width: calc(100% - 340px); float: left; padding: 0; margin: 0;">
+    
+    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+
+    <div class="page__inner-wrap" style="width: 100%; margin: 0; padding: 0;">
+      
+      <section class="page__content" itemprop="text" style="width: 100%; margin: 0; padding: 0;">
+        {{ content }}
+      </section>
+
+      <footer class="page__meta">
+        {% include page__taxonomy.html %}
+      </footer>
+
+    </div>
+  </article>
+</div>
 
 <!-- end custom head snippets -->
