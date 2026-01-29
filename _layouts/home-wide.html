@@ -5,28 +5,52 @@ layout: default
 {% include base_path %}
 
 <style>
-  .sidebar .author__avatar img {
+  /* A. Fix the Sidebar Width */
+  .custom-sidebar {
+    width: 350px !important;      /* Fixed robust width */
+    min-width: 350px !important;  /* Never let it shrink */
+    margin-right: 0 !important;   /* No margin needed (Flexbox handles it) */
+    padding-right: 20px !important; /* Internal spacing instead of gap */
+  }
+
+  /* B. Force the Profile Picture to Fill the Width */
+  /* This prevents the "Shrink" effect */
+  .custom-sidebar .author__profile,
+  .custom-sidebar .author__avatar,
+  .custom-sidebar .author__avatar img {
     width: 100% !important;
     max-width: 100% !important;
     display: block !important;
-    object-fit: cover !important; /* Ensures the photo looks good stretched */
   }
-  .sidebar .author__content {
-    width: 100% !important;
+
+  /* C. The Container (Magnet Mode) */
+  .flex-wrapper {
+    display: flex !important;     /* Activate Flexbox */
+    flex-direction: row !important;
+    width: 98vw !important;       /* Full Screen Width */
+    max-width: 98vw !important;
+    margin: 0 auto !important;
+  }
+
+  /* D. The Content (Fills remaining space automatically) */
+  .custom-content {
+    flex: 1 !important;           /* Take 100% of whatever space is left */
+    width: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 </style>
 
-<div id="main" role="main" style="width: 98vw; max-width: 98vw; margin-left: auto; margin-right: auto; margin-top: 0; padding-top: 0;">
+<div id="main" role="main" class="flex-wrapper">
 
-  <div class="sidebar sticky" style="width: 500px; float: left; margin-right: 0px; display: block; padding-right: 20px;">
+  <div class="sidebar sticky custom-sidebar">
     {% include sidebar.html %}
   </div>
 
-  <article class="page" itemscope itemtype="http://schema.org/CreativeWork" style="width: calc(100% - 500px); float: left; padding: 0; margin: 0;">
-    
-    <div class="page__inner-wrap" style="width: 100%; margin: 0; padding: 0;">
+  <article class="page custom-content" itemscope itemtype="http://schema.org/CreativeWork">
+    <div class="page__inner-wrap" style="width: 100%;">
       
-      <section class="page__content" itemprop="text" style="width: 100%; margin: 0; padding: 0;">
+      <section class="page__content" itemprop="text">
         {{ content }}
       </section>
 
@@ -36,4 +60,5 @@ layout: default
 
     </div>
   </article>
+
 </div>
