@@ -20,57 +20,50 @@
 
 
 
-
 {% if page.url == "/" %}
 <style>
   @media (min-width: 64em) {
     
-    /* --- 1. DESTROY THE TOP GAP (Nuclear Option) --- */
-    /* Target the navigation bar bottom */
-    .masthead {
-      margin-bottom: 0 !important;
-      padding-bottom: 0 !important;
-      border-bottom: none !important;
-    }
-    /* Target the page container top */
-    .initial-content, .page__inner-wrap, .page__content, .page {
+    /* --- 1. KILL THE TOP GAP (The "Vacuum" Fix) --- */
+    /* We target every possible container that holds spacing */
+    .initial-content, #main, .page, .page__inner-wrap {
       margin-top: 0 !important;
       padding-top: 0 !important;
     }
-    /* Hide Breadcrumbs if they are taking up invisible space */
-    nav.breadcrumbs {
-      display: none !important;
-    }
-
-    /* --- 2. MAX WIDTH (No Gaps on Right) --- */
+    
+    /* If the gap is still there, this pulls everything up manually */
     .page__inner-wrap {
-      max-width: 100% !important; /* Full screen width */
-      width: 100% !important;
-      margin: 0 !important;
-      padding: 0 !important;
+      margin-top: -20px !important; /* Pulls it up slightly to close any hidden gaps */
     }
 
-    /* --- 3. SIDEBAR (20%) --- */
+    /* --- 2. UNLOCK THE FRAME --- */
+    .page__inner-wrap {
+      max-width: 98vw !important; /* Use 98% of screen (almost full width) */
+      width: 98vw !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+
+    /* --- 3. SIDEBAR (Left Panel) --- */
     .sidebar {
       width: 20% !important;
       float: left !important;
-      margin: 0 !important;
-      padding-top: 10px !important; /* Give the photo a tiny bit of air */
-      padding-right: 10px !important; /* Internal spacing so it doesn't touch text */
+      margin-right: 2% !important; /* Reduced gap to make it tighter */
       display: block !important;
+      margin-top: 0 !important;
     }
 
-    /* --- 4. CONTENT (80%) --- */
-    /* 20% Sidebar + 80% Content = 100% (Perfect Fit) */
+    /* --- 4. CONTENT (Right Panel) --- */
+    /* 20% (Sidebar) + 2% (Margin) + 78% (Content) = 100% --> NO GAPS */
     .page__content {
-      width: 80% !important;
-      float: left !important;
-      margin: 0 !important;
-      padding: 0 !important;
-      padding-top: 10px !important; /* Match sidebar spacing */
+      width: 78% !important; 
+      float: left !important; 
+      margin-right: 0 !important;
+      padding-right: 0 !important;
+      margin-top: 0 !important;
     }
 
-    /* --- 5. HIDE GHOST COLUMNS --- */
+    /* --- 5. REMOVE GHOST ELEMENTS --- */
     .sidebar__right, .toc, .toc__menu {
       display: none !important;
     }
