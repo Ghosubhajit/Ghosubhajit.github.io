@@ -14,25 +14,26 @@ layout: default
     align-items: flex-start !important;
   }
 
-  /* B. The Sidebar (SCALED DOWN to 80%) */
+  /* B. The Sidebar Container (The "Frame") */
+  /* We keep the frame wide (320px), but we will shrink the content inside it below */
   .custom-sidebar {
-    /* Reduced from 400px to 320px (80% size) */
     width: 320px !important;      
     min-width: 320px !important;  
-    margin-right: 25px !important; /* Slightly more breathing room for the text */
+    margin-right: 25px !important; 
     padding: 0 !important;
-    
-    /* Optional: Make the bio text slightly smaller to match the smaller pic */
     font-size: 0.9em !important; 
   }
 
-  /* C. Force Picture to Fill the New Width */
+  /* C. The Picture & Bio (The "Painting") */
+  /* Shrink to 80% and Center it */
   .custom-sidebar .author__avatar img,
   .custom-sidebar .author__content,
   .custom-sidebar .sidebar {
-    width: 100% !important;
-    max-width: 100% !important;
+    width: 80% !important;        /* <--- CHANGED: 80% width */
+    max-width: 80% !important;
     display: block !important;
+    margin-left: auto !important; /* <--- ADDED: Push from left */
+    margin-right: auto !important;/* <--- ADDED: Push from right (Centers it) */
     padding-right: 0 !important;
   }
 
