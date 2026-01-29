@@ -21,12 +21,10 @@
 
 
 
-
 {% if page.url == "/" %}
 <style>
   @media (min-width: 64em) {
-    
-    /* 1. UNLOCK THE MAIN FRAME */
+    /* 1. MAKE THE FRAME WIDE (Use 95% of screen) */
     .page__inner-wrap {
       max-width: 95vw !important;
       width: 95vw !important;
@@ -34,30 +32,26 @@
       margin-right: auto !important;
     }
 
-    /* 2. FIX THE LEFT SIDEBAR (Profile) */
+    /* 2. SIDEBAR (Left Panel) */
     .sidebar {
       width: 20% !important;
       float: left !important;
+      margin-right: 3% !important; /* Spacing between pic and text */
       display: block !important;
-      margin-right: 2% !important;
-      z-index: 10; /* Ensure it stays on top */
     }
 
-    /* 3. EXPAND TEXT & KILL THE RIGHT MARGIN */
+    /* 3. CONTENT (Right Panel) */
+    /* We use 75% to ensure it fits next to the sidebar without dropping */
     .page__content {
-      width: 78% !important; /* Fills the rest of the space */
-      max-width: 78% !important;
-      float: right !important;
+      width: 75% !important; 
+      float: left !important; /* Float LEFT to stick it to the sidebar */
       margin-right: 0 !important;
       padding-right: 0 !important;
     }
 
-    /* 4. DELETE THE GHOST COLUMN (Crucial) */
+    /* 4. REMOVE GHOST ELEMENTS */
     .sidebar__right, .toc, .toc__menu {
       display: none !important;
-      width: 0 !important;
-      margin: 0 !important;
-      padding: 0 !important;
     }
   }
 </style>
