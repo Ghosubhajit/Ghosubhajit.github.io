@@ -6,7 +6,6 @@
 
 <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 
-<!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,58 +14,34 @@
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
 
-<!-- For all browsers -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
 
 <meta http-equiv="cleartype" content="on">
 
 <style>
-  /* Force the content to take up more space on large screens */
+  /* Only apply these widening fixes on large screens (Computers) */
   @media (min-width: 64em) {
+    
+    /* 1. Make the container stretch to 95% of the screen width */
     .page__inner-wrap {
-      float: none !important;
-      margin-left: 0 !important;
-      margin-right: 0 !important;
-      width: 100% !important;
+      max-width: 95% !important;
+      width: 95% !important;
+    }
+
+    /* 2. The Sidebar (Left Panel): Keep it visible on the left */
+    .sidebar {
+      display: block !important; /* Ensure it is visible */
+      width: 20% !important;     /* Give it 20% of the space */
+      margin-right: 2% !important;
+      float: left !important;
+    }
+
+    /* 3. The Main Content (Right Panel): Fill the remaining space */
+    .page__content {
+      width: 78% !important;     /* 20% sidebar + 78% content = 98% */
       max-width: 100% !important;
+      float: right !important;
       padding-right: 0 !important;
     }
-    
-    /* Optional: Adjust the sidebar if it looks squeezed */
-    .page__content {
-       width: 100% !important;
-       max-width: 100% !important;
-    }
-  }
-</style>
-
-<style>
-  /* 1. Break the container limit */
-  .page__inner-wrap {
-    max-width: 95% !important; /* Uses 95% of the screen */
-    width: 95% !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    padding-right: 0 !important;
-    float: none !important;
-  }
-
-  /* 2. Force the content text to fill that container */
-  .page__content {
-    width: 100% !important;
-    max-width: 100% !important;
-    padding-right: 0 !important;
-    flex: none !important; /* Disables flexbox constraints */
-  }
-
-  /* 3. Hide the sidebar container if it is secretly taking up space */
-  .sidebar {
-    display: none !important; 
-    width: 0 !important;
-  }
-  
-  /* 4. Fix the title alignment */
-  .page__title {
-    width: 100% !important;
   }
 </style>
