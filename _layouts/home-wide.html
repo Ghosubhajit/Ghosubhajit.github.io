@@ -5,36 +5,37 @@ layout: default
 {% include base_path %}
 
 <style>
-  /* A. Fix the Sidebar Width */
-  .custom-sidebar {
-    width: 350px !important;      /* Fixed robust width */
-    min-width: 350px !important;  /* Never let it shrink */
-    margin-right: 0 !important;   /* No margin needed (Flexbox handles it) */
-    padding-right: 20px !important; /* Internal spacing instead of gap */
+  /* A. The Flex Container (Holds Sidebar & Text together) */
+  .flex-wrapper {
+    display: flex !important;
+    width: 98vw !important;
+    max-width: 98vw !important;
+    margin: 0 auto !important;
+    align-items: flex-start !important; /* Aligns top of picture and text */
   }
 
-  /* B. Force the Profile Picture to Fill the Width */
-  /* This prevents the "Shrink" effect */
-  .custom-sidebar .author__profile,
-  .custom-sidebar .author__avatar,
-  .custom-sidebar .author__avatar img {
+  /* B. The Sidebar (The Frame) */
+  .custom-sidebar {
+    width: 400px !important;      /* WIDER: 400px (Change this number to resize) */
+    min-width: 400px !important;  /* Locks the size so it doesn't shrink */
+    margin-right: 20px !important; /* Small breathing room between sidebar and text */
+    padding: 0 !important;        /* Remove internal padding that causes gaps */
+  }
+
+  /* C. THE KEY FIX: Force Picture & Bio to Fill the Frame */
+  /* This tells the picture to use ALL 400px, leaving no empty space */
+  .custom-sidebar .author__avatar img,
+  .custom-sidebar .author__content,
+  .custom-sidebar .sidebar {
     width: 100% !important;
     max-width: 100% !important;
     display: block !important;
+    padding-right: 0 !important;
   }
 
-  /* C. The Container (Magnet Mode) */
-  .flex-wrapper {
-    display: flex !important;     /* Activate Flexbox */
-    flex-direction: row !important;
-    width: 98vw !important;       /* Full Screen Width */
-    max-width: 98vw !important;
-    margin: 0 auto !important;
-  }
-
-  /* D. The Content (Fills remaining space automatically) */
+  /* D. The Content (Fills the rest) */
   .custom-content {
-    flex: 1 !important;           /* Take 100% of whatever space is left */
+    flex: 1 !important;           /* Takes all remaining space */
     width: auto !important;
     margin: 0 !important;
     padding: 0 !important;
