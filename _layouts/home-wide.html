@@ -5,25 +5,28 @@ layout: default
 {% include base_path %}
 
 <style>
-  /* A. The Flex Container (Holds Sidebar & Text together) */
+  /* A. The Flex Container */
   .flex-wrapper {
     display: flex !important;
     width: 98vw !important;
     max-width: 98vw !important;
     margin: 0 auto !important;
-    align-items: flex-start !important; /* Aligns top of picture and text */
+    align-items: flex-start !important;
   }
 
-  /* B. The Sidebar (The Frame) */
+  /* B. The Sidebar (SCALED DOWN to 80%) */
   .custom-sidebar {
-    width: 400px !important;      /* WIDER: 400px (Change this number to resize) */
-    min-width: 400px !important;  /* Locks the size so it doesn't shrink */
-    margin-right: 20px !important; /* Small breathing room between sidebar and text */
-    padding: 0 !important;        /* Remove internal padding that causes gaps */
+    /* Reduced from 400px to 320px (80% size) */
+    width: 320px !important;      
+    min-width: 320px !important;  
+    margin-right: 25px !important; /* Slightly more breathing room for the text */
+    padding: 0 !important;
+    
+    /* Optional: Make the bio text slightly smaller to match the smaller pic */
+    font-size: 0.9em !important; 
   }
 
-  /* C. THE KEY FIX: Force Picture & Bio to Fill the Frame */
-  /* This tells the picture to use ALL 400px, leaving no empty space */
+  /* C. Force Picture to Fill the New Width */
   .custom-sidebar .author__avatar img,
   .custom-sidebar .author__content,
   .custom-sidebar .sidebar {
@@ -33,9 +36,9 @@ layout: default
     padding-right: 0 !important;
   }
 
-  /* D. The Content (Fills the rest) */
+  /* D. The Content (Auto-Fills the rest) */
   .custom-content {
-    flex: 1 !important;           /* Takes all remaining space */
+    flex: 1 !important;
     width: auto !important;
     margin: 0 !important;
     padding: 0 !important;
