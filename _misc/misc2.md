@@ -25,11 +25,13 @@ share: false
 
 
 <style>
-  .page__pagination {
+  .pagination, .page__pagination, .pager, .page-navigation, nav.pagination {
     display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    width: 0 !important;
   }
 </style>
-
 
 
    
