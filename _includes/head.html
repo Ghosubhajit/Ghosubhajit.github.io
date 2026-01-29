@@ -27,20 +27,22 @@
 <style>
   @media (min-width: 64em) {
     
-    /* --- 1. REMOVE THE TOP GAP --- */
-    /* This pulls the content up to touch the menu */
-    .page__inner-wrap {
+    /* --- 1. KILL THE TOP GAP (The "Vacuum" Fix) --- */
+    /* We target every possible container that holds spacing */
+    .initial-content, #main, .page, .page__inner-wrap {
       margin-top: 0 !important;
-      padding-top: 10px !important; /* Tiny gap just so it doesn't hit the line */
+      padding-top: 0 !important;
     }
-    .page {
-      margin-top: 0 !important;
+    
+    /* If the gap is still there, this pulls everything up manually */
+    .page__inner-wrap {
+      margin-top: -20px !important; /* Pulls it up slightly to close any hidden gaps */
     }
 
-    /* --- 2. MAKE THE FRAME WIDE --- */
+    /* --- 2. UNLOCK THE FRAME --- */
     .page__inner-wrap {
-      max-width: 95vw !important;
-      width: 95vw !important;
+      max-width: 98vw !important; /* Use 98% of screen (almost full width) */
+      width: 98vw !important;
       margin-left: auto !important;
       margin-right: auto !important;
     }
@@ -49,18 +51,19 @@
     .sidebar {
       width: 20% !important;
       float: left !important;
-      margin-right: 3% !important;
+      margin-right: 2% !important; /* Reduced gap to make it tighter */
       display: block !important;
-      margin-top: 0 !important; /* Pull sidebar up too */
+      margin-top: 0 !important;
     }
 
     /* --- 4. CONTENT (Right Panel) --- */
+    /* 20% (Sidebar) + 2% (Margin) + 78% (Content) = 100% --> NO GAPS */
     .page__content {
-      width: 75% !important; 
+      width: 78% !important; 
       float: left !important; 
       margin-right: 0 !important;
       padding-right: 0 !important;
-      margin-top: 0 !important; /* Pull text up too */
+      margin-top: 0 !important;
     }
 
     /* --- 5. REMOVE GHOST ELEMENTS --- */
