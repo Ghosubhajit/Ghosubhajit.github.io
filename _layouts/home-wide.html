@@ -6,27 +6,26 @@ layout: default
 
 <style>
   /* --- 1. MOBILE DEFAULTS (Phone & Tablet) --- */
-  /* By default, we STACK things vertically. This fixes the mobile view. */
   .flex-wrapper {
     display: block !important;
-    width: 95% !important; /* Use 95% of phone screen */
+    width: 95% !important; 
     margin: 0 auto !important;
   }
   
   .custom-sidebar {
-    width: 100% !important; /* Full width on phone */
+    width: 100% !important; 
     margin-right: 0 !important;
-    margin-bottom: 30px !important; /* Gap between pic and bio */
-    text-align: center !important; /* Center the text on phone */
+    margin-bottom: 30px !important; 
+    text-align: center !important; 
   }
 
-  /* Center the image on mobile */
+  /* FIX: MAKE MOBILE PICTURE BIG (100%) */
   .custom-sidebar .author__avatar img,
   .custom-sidebar .author__content,
   .custom-sidebar .sidebar {
-    width: 60% !important; /* Smaller image on phone looks better */
-    max-width: 250px !important; 
-    margin: 0 auto !important; /* Center it */
+    width: 100% !important; /* <--- CHANGED THIS from 60% to 100% */
+    max-width: 100% !important; 
+    margin: 0 auto !important; 
     display: block !important;
   }
 
@@ -36,10 +35,9 @@ layout: default
   }
 
   /* --- 2. DESKTOP OVERRIDES (Computer Only) --- */
-  /* This code ONLY activates if the screen is wider than 1024px (Laptops/PCs) */
+  /* This section only activates on larger screens */
   @media (min-width: 64em) {
     
-    /* Turn on the "Side-by-Side" Flexbox */
     .flex-wrapper {
       display: flex !important;
       flex-direction: row !important;
@@ -48,26 +46,24 @@ layout: default
       align-items: flex-start !important;
     }
 
-    /* Restore the Fixed Sidebar Width (320px) */
     .custom-sidebar {
       width: 320px !important;
       min-width: 320px !important;
       margin-right: 25px !important;
       margin-bottom: 0 !important;
-      text-align: left !important; /* Left align on computer */
+      text-align: left !important; 
     }
 
-    /* Restore the "80% Width" look you liked for Desktop */
+    /* Keep Desktop Picture at 80% (The "Sweet Spot") */
     .custom-sidebar .author__avatar img,
     .custom-sidebar .author__content,
     .custom-sidebar .sidebar {
-      width: 90% !important;
-      max-width: 90% !important;
+      width: 80% !important;
+      max-width: 80% !important;
       margin-left: auto !important;
       margin-right: auto !important;
     }
 
-    /* Content takes remaining space */
     .custom-content {
       flex: 1 !important;
       width: auto !important;
