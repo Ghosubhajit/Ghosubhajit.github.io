@@ -17,31 +17,3 @@
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
 
 <meta http-equiv="cleartype" content="on">
-
-<style>
-  /* Only apply these widening fixes on large screens (Computers) */
-  @media (min-width: 64em) {
-    
-    /* 1. Make the container stretch to 95% of the screen width */
-    .page__inner-wrap {
-      max-width: 95% !important;
-      width: 95% !important;
-    }
-
-    /* 2. The Sidebar (Left Panel): Keep it visible on the left */
-    .sidebar {
-      display: block !important; /* Ensure it is visible */
-      width: 20% !important;     /* Give it 20% of the space */
-      margin-right: 2% !important;
-      float: left !important;
-    }
-
-    /* 3. The Main Content (Right Panel): Fill the remaining space */
-    .page__content {
-      width: 78% !important;     /* 20% sidebar + 78% content = 98% */
-      max-width: 100% !important;
-      float: right !important;
-      padding-right: 0 !important;
-    }
-  }
-</style>
