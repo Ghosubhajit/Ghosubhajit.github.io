@@ -39,3 +39,34 @@
     }
   }
 </style>
+
+<style>
+  /* 1. Break the container limit */
+  .page__inner-wrap {
+    max-width: 95% !important; /* Uses 95% of the screen */
+    width: 95% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-right: 0 !important;
+    float: none !important;
+  }
+
+  /* 2. Force the content text to fill that container */
+  .page__content {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-right: 0 !important;
+    flex: none !important; /* Disables flexbox constraints */
+  }
+
+  /* 3. Hide the sidebar container if it is secretly taking up space */
+  .sidebar {
+    display: none !important; 
+    width: 0 !important;
+  }
+  
+  /* 4. Fix the title alignment */
+  .page__title {
+    width: 100% !important;
+  }
+</style>
