@@ -36,7 +36,9 @@ permalink: /teaching/
 
 {% comment %} 2. Loop through the groups {% endcomment %}
 {% for group in teaching_groups %}
+<br>
   ### {{ group.name | default: "Other Institutions" }}
+  
   <ul>
     {% for course in group.items %}
       <li>
