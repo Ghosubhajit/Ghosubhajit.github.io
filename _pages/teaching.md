@@ -30,12 +30,9 @@ permalink: /teaching/
 ## 📚 Past Teaching Archive
 *Previous courses, tutorials, and grading responsibilities.*
 
-{% for course in site.teaching reversed %}
-  {% if course.active != true %}
-    * {{ course.type }}: [{{ course.title }}]({{ course.url | relative_url }}) — *{{ course.location }} ({{ course.date | date: "%Y" }})*
-  {% endif %}
+{% for course in site.teaching %}
+  * [{{ course.title | default: "Untitled Course" }}]({{ course.url | relative_url }}) — {{ course.location }}
 {% endfor %}
-
 <style>
   .pagination, .page__pagination, .pager, .page-navigation, nav.pagination {
     display: none !important;
