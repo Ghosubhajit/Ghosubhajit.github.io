@@ -1,7 +1,7 @@
 ---
 title: "Workshops & Conferences"
 layout: archive
-permalink: /workshops-main/
+permalink: /workshops/Seminars
 ---
 
 ## 🚀 Upcoming Events
