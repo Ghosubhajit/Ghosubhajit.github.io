@@ -3,9 +3,10 @@ title: "Workshops and Conferences"
 collection: workshops
 permalink: /workshops/
 layout: archive
+list: hide 
 ---
 
-## 🚀 Upcoming & Current
+## Upcoming & Current
 *This section contains events I am attending or planning to visit.*
 
 * **[Conference Name 2026]** | Location | Date 
