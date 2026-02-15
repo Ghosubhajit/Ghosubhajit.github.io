@@ -1,41 +1,27 @@
 ---
-title: "Workshops & Conferences"
+title: "Workshops and Conferences"
+collection: workshops
+permalink: /workshops/
 layout: archive
-permalink: /workshops/Seminars
 ---
 
-## 🚀 Upcoming Events
-{% assign current_date = "now" | date: "%Y-%m-%d" %}
-{% assign upcoming_found = false %}
+## 🚀 Upcoming & Current
+*This section contains events I am attending or planning to visit.*
 
-{% for event in site.workshops %}
-  {% comment %} 
-    If you add a 'date' field to your SCV file, 
-    this logic will automatically move it.
-  {% endcomment %}
-  {% if event.date >= current_date %}
-    ### [{{ event.title }}]({{ event.url }})
-    **Location:** {{ event.location }}
-    {{ event.content | strip_html | truncatewords: 30 }}
-    {% assign upcoming_found = true %}
-    ---
-  {% endif %}
-{% endfor %}
+* **[Conference Name 2026]** | Location | Date 
+* **[Workshop Title]** | Location | Future Date
 
-{% if upcoming_found == false %}
-*No upcoming workshops at the moment.*
-{% endif %}
+---
 
-<br>
+## 📂 Past Workshops & Seminars
+*Below are details and photos from events I have participated in:*
 
-## 📂 Past Workshops
-{% for event in site.workshops %}
-  {% if event.date < current_date or event.date == nil %}
-    * [{{ event.title }}]({{ event.url }}) — *{{ event.location }}*
-  {% endif %}
+{% for post in site.workshops reversed %}
+  * [{{ post.title }}]({{ post.url }}) — *{{ post.location }}*
 {% endfor %}
 
 <style>
+  /* Keeps the page clean and removes pagination if your theme uses it */
   .pagination, .page__pagination, .pager, .page-navigation, nav.pagination {
     display: none !important;
   }
