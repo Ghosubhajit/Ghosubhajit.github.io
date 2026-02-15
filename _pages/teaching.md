@@ -30,16 +30,20 @@ permalink: /teaching/
 ## 📚 Past Teaching Archive
 *Previous courses, tutorials, and grading responsibilities.*
 
+{% comment %} 1. Define the group FIRST {% endcomment %}
+{% assign past_courses = site.teaching | where_exp: "item", "item.active != true" %}
+{% assign teaching_groups = past_courses | group_by: "venue" %}
+
+{% comment %} 2. Loop through the groups {% endcomment %}
 {% for group in teaching_groups %}
-  ### {{ group.name }}
+  ### {{ group.name | default: "Other Institutions" }}
   <ul>
-    {% assign teaching_groups = site.teaching | where_exp: "item", "item.active != true" | group_by: "venue" %}
-{% for course in group.items %}
-  <li>
-    <a href="{{ course.url | absolute_url }}">{{ course.title }}</a> — 
-    *{{ course.type }} ({{ course.date | date: "%Y" }})*
-  </li>
-{% endfor %}
+    {% for course in group.items %}
+      <li>
+        <a href="{{ course.url | relative_url }}">{{ course.title }}</a> — 
+        *{{ course.type }} ({{ course.date | date: "%Y" }})*
+      </li>
+    {% endfor %}
   </ul>
 {% endfor %}
 
