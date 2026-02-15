@@ -1,42 +1,37 @@
 ---
-title: "Seminars & Workshops"
+title: "Workshops & Conferences"
 layout: archive
-permalink: /seminars-hub/
+permalink: /workshops-main/
 ---
 
-## 🟢 Upcoming & Ongoing
+## 🚀 Upcoming Events
 {% assign current_date = "now" | date: "%Y-%m-%d" %}
-{% assign upcoming_count = 0 %}
+{% assign upcoming_found = false %}
 
-{% comment %} 
-Change 'site.posts' to 'site.seminars' or 'site.workshops' 
-depending on what you named your folder 
-{% endcomment %}
-
-{% for item in site.seminars %}
-  {% if item.date >= current_date %}
-    ### [{{ item.title }}]({{ item.url }})
-    **Date:** {{ item.date | date: "%B %d, %Y" }}  
-    *{{ item.description }}*
-    
-    [View Details & Abstract]({{ item.url }})
+{% for event in site.workshops %}
+  {% comment %} 
+    If you add a 'date' field to your SCV file, 
+    this logic will automatically move it.
+  {% endcomment %}
+  {% if event.date >= current_date %}
+    ### [{{ event.title }}]({{ event.url }})
+    **Location:** {{ event.location }}
+    {{ event.content | strip_html | truncatewords: 30 }}
+    {% assign upcoming_found = true %}
     ---
-    {% assign upcoming_count = upcoming_count | plus: 1 %}
   {% endif %}
 {% endfor %}
 
-{% if upcoming_count == 0 %}
-*No upcoming events currently scheduled.*
+{% if upcoming_found == false %}
+*No upcoming workshops at the moment.*
 {% endif %}
 
 <br>
 
-## 📜 Past Events
-Below are the links to my previous seminars and workshops:
-
-{% for item in site.seminars reversed %}
-  {% if item.date < current_date %}
-    * {{ item.date | date: "%Y" }}: [{{ item.title }}]({{ item.url }})
+## 📂 Past Workshops
+{% for event in site.workshops %}
+  {% if event.date < current_date or event.date == nil %}
+    * [{{ event.title }}]({{ event.url }}) — *{{ event.location }}*
   {% endif %}
 {% endfor %}
 
