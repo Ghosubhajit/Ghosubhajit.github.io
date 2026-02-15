@@ -30,9 +30,21 @@ permalink: /teaching/
 ## 📚 Past Teaching Archive
 *Previous courses, tutorials, and grading responsibilities.*
 
-{% for course in site.teaching %}
-  * [{{ course.title | default: "Untitled Course" }}]({{ course.url | relative_url }}) — {{ course.location }}
+
+{% assign teaching_groups = site.teaching | where_exp: "item", "item.active != true" | group_by: "venue" %}
+
+{% for group in teaching_groups %}
+  ### {{ group.name }}
+  <ul>
+    {% for course in group.items %}
+      <li>
+        [{{ course.title }}]({{ course.url | relative_url }}) — 
+        *{{ course.type }} ({{ course.date | date: "%Y" }})*
+      </li>
+    {% endfor %}
+  </ul>
 {% endfor %}
+
 <style>
   .pagination, .page__pagination, .pager, .page-navigation, nav.pagination {
     display: none !important;
