@@ -2,7 +2,8 @@
 title: "IMAG Conference on Orthogonal Polynomials, Special Functions and Applications - OPSFA17"
 collection: workshops
 permalink: /workshops/OPSFA-17
-location: "Pune, India"
+date: 2024-05-20
+location: "Granada, Spain"
 ---
 
 ---
