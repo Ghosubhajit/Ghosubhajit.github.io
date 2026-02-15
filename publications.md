@@ -8,6 +8,9 @@ permanentlink: /_pages/publications.md
 
 ## Publications
 
+{% if author.googlescholar %}
+  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+{% endif %}
 <ol> 
 
 <li> Subhajit Ghosh, "On the number of components of random polynomial lemniscates", <i>Electron. J. Probab.</i>, 29 (2024), Paper No. 1. 
