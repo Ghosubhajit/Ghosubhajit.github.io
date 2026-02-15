@@ -18,7 +18,9 @@ list: hide
 *Below are details and photos from events I have participated in:*
 
 {% for post in site.workshops reversed %}
-  * [{{ post.title }}]({{ post.url }}) — *{{ post.location }}*
+  {% unless post.list == "hide" %}
+    * [{{ post.title }}]({{ post.url }}) — *{{ post.location }}*
+  {% endunless %}
 {% endfor %}
 
 <style>
