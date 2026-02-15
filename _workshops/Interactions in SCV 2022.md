@@ -2,6 +2,7 @@
 title: "Interactions in SCV 2022"
 collection: workshops
 date: 2022-05-20
+permalink: /workshops/Interactions in SCV 2022
 location: "Kerala, India"
 ---
 
