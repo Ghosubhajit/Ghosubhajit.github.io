@@ -4,8 +4,8 @@ layout: archive
 permalink: /teaching/
 ---
 
-## 📖 Current Teaching
-*Courses I am currently instructing or TA-ing.*
+## 📖 Current
+**
 
 {% assign current_date = "now" | date: "%Y-%m-%d" %}
 {% assign active_teaching = false %}
@@ -22,11 +22,11 @@ permalink: /teaching/
 {% endfor %}
 
 {% if active_teaching == false %}
-*No active courses at the moment.*
+*No active TA or Teaching at the moment.*
 {% endif %}
 
 <br>
-## 📚 Past Teaching Archive
+## 📖 Past Teaching Archive
 *Previous courses, tutorials, and grading responsibilities.*
 
 {% assign past_courses = site.teaching | where_exp: "item", "item.active != true" %}
