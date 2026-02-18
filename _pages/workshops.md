@@ -5,11 +5,9 @@ permalink: /workshops/
 layout: archive
 ---
 
-## 🚀 Upcoming & Current
+## 📅 Upcoming & Current
 *This section contains events I am attending or planning to visit.*
 
-* **[Conference Name 2026]** | Location | Date 
-* **[Workshop Title]** | Location | Future Date
 
 ---
 
