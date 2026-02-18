@@ -23,8 +23,7 @@ permalink: /teaching/
 *No active TA or Teaching at the moment.*
 {% endif %}
 
-## 📖 Past Teaching Archive
-*Previous courses, tutorials, and grading responsibilities.*
+## 📁 Past Teaching Archive
 
 {% assign past_courses = site.teaching | where_exp: "item", "item.active != true" %}
 {% assign teaching_groups = past_courses | group_by: "venue" %}
