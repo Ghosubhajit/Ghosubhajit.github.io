@@ -5,8 +5,6 @@ permalink: /teaching/
 ---
 
 ## 📖 Current
-**
-
 {% assign current_date = "now" | date: "%Y-%m-%d" %}
 {% assign active_teaching = false %}
 
@@ -25,7 +23,6 @@ permalink: /teaching/
 *No active TA or Teaching at the moment.*
 {% endif %}
 
-<br>
 ## 📖 Past Teaching Archive
 *Previous courses, tutorials, and grading responsibilities.*
 
