@@ -24,6 +24,8 @@ share: false
 
 7)[Mathematical Physics](https://www.iamp.org/page.php?page=page_positions)
 
+8)Job hunt page of [Women in Probability](http://womeninprobability.org/Job_Hunt.html).
+
 
 
 
