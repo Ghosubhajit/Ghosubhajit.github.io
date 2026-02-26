@@ -1,6 +1,6 @@
 ---
 title: "Academic job sites"
-excerpt: "A curated list of job boards and resources for academic positions in mathematics and probability."
+excerpt: ""
 collection: misc
 permalink: /misc/misc1_academicjobs
 share: false  
