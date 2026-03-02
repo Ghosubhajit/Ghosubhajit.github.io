@@ -5,6 +5,19 @@ permalink: /workshops/
 layout: archive
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TED2EMCK81"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TED2EMCK81');
+</script>
+------------
+------------
+
+
 ## 📅 Upcoming & Current
 *This section contains events I am attending or planning to visit.*
 
