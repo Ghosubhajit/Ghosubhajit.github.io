@@ -5,6 +5,17 @@ permanentlink: /act.md/
 ---
 
 ---
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TED2EMCK81"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TED2EMCK81');
+</script>
+------------
+------------
 
 * On January 19, 2026, I presented at the BIAP seminar at Bar-Ilan University, discussing how probabilistic methods are used to establish deterministic bounds for the number of connected components in polynomial lemniscates.
   <br>
