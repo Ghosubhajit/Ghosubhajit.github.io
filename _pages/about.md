@@ -10,6 +10,16 @@ redirect_from:
 layout: home-wide
 ---
 
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TED2EMCK81"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TED2EMCK81');
+</script>
 ------------
 ------------
 
