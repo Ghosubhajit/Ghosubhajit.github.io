@@ -31,6 +31,11 @@ permanentlink: /_pages/publications.md
 <li> Subhajit Ghosh and Koushik Ramachandran, "Number of components of polynomial lemniscates: A problem of Erdös, Herzog, and Piranian", <i>J. Math. Anal. Appl.</i>, 540 (2024), Paper No. 128571. 
 [<a href="https://arxiv.org/abs/2312.13673">Arxiv</a>], [<a href="https://www.sciencedirect.com/science/article/pii/S0022247X24004931">Journal</a>] 
 </li>
+
+<li> Subhajit Ghosh and Koushik Ramachandran, "A note on the Erdos minimal area problem ",  
+[<a href="https://arxiv.org/abs/2604.03036">Arxiv</a>]
+</ol>
+
 </ol>
 
 ## Thesis
