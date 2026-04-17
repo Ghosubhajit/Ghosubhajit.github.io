@@ -33,11 +33,8 @@ permanentlink: /_pages/publications.md
 </li>
 
 <li> Subhajit Ghosh and Koushik Ramachandran, "A note on the Erdos minimal area problem ",  
-[<a href="https://arxiv.org/abs/2604.03036">Arxiv</a>]
-</ol>
+[<a href="https://arxiv.org/abs/2604.03036">Arxiv</a>] </ol>
 
-
-</ol>
 
 ## Thesis
 
