@@ -35,8 +35,8 @@ permanentlink: /_pages/publications.md
 <li> Subhajit Ghosh and Koushik Ramachandran, "A note on the Erdos minimal area problem ",  
 [<a href="https://arxiv.org/abs/2604.03036">Arxiv</a>]
 </li>
----
----
+
+
 ## Thesis
 
 Subhajit Ghosh, "On the number of connected components of polynomial lemniscates: Deterministic and Random", Ph.D. Thesis,  
