@@ -17,6 +17,8 @@ permanentlink: /act.md/
 ------------
 ------------
 
+**Upcoming talk:** On May 19, 2026, I will give a talk at the Probability Seminar at the Hebrew University of Jerusalem. I will discuss how probabilistic methods can be used to establish deterministic bounds for the number of connected components in polynomial lemniscates. [[Event link](https://mathematics.huji.ac.il/event/probability-seminar-subhajit-ghosh-bar-ilan?ref_tid=3830)]
+
 * On January 19, 2026, I presented at the BIAP seminar at Bar-Ilan University, discussing how probabilistic methods are used to establish deterministic bounds for the number of connected components in polynomial lemniscates.
   <br>
   <a href="/files/BIAP_seminar_Jan_19_2026(for upload).pdf">View Slides (PDF)
