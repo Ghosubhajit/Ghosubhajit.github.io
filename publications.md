@@ -35,6 +35,11 @@ permanentlink: /_pages/publications.md
 <li> Subhajit Ghosh and Koushik Ramachandran, "A note on the Erdos minimal area problem ",  
 [<a href="https://arxiv.org/abs/2604.03036">Arxiv</a>]
 </li>
+
+<li> Subhajit Ghosh, Koushik Ramachandran, and Atul Shekhar, "Asymptotics of the Number of Components of Random Polynomial Lemniscates",  
+[<a href="https://arxiv.org/abs/2605.29095">Arxiv</a>]
+</li>
+
 </ol>
 
 ## Thesis
