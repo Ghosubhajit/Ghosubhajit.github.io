@@ -19,8 +19,7 @@ layout: archive
 
 
 ## 📅 Upcoming & Current
-*This section contains events I am attending or planning to visit.*
----
+**Events I am attending or planning to visit:**
 
 ### [Back to the Roots of Polynomials](https://sites.google.com/view/backtotherootsofpolynomials/main?authuser=0)
 
@@ -42,7 +41,7 @@ A lecture programme on probability and stochastic processes.
 
 ### [Computational Methods and Function Theory — CMFT 2026](https://ge.iitm.ac.in/cmft-2026)
 
-**International Conference**  
+**December 7–11, 2026**   
 **IIT Madras, Chennai, India**
 
 Jointly organized by:
