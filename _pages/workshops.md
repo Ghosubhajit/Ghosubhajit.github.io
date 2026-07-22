@@ -20,8 +20,37 @@ layout: archive
 
 ## 📅 Upcoming & Current
 *This section contains events I am attending or planning to visit.*
+---
 
+### [Back to the Roots of Polynomials](https://sites.google.com/view/backtotherootsofpolynomials/main?authuser=0)
 
+**September 22–25, 2026**  
+**Paderborn University, Germany**
+
+A workshop on zeros of polynomials and related topics.
+
+---
+
+### [Lectures on Probability and Stochastic Processes 2026](https://sites.google.com/view/lps-2026)
+
+**November 30–December 5, 2026**  
+**IIT Kanpur, India**
+
+A lecture programme on probability and stochastic processes.
+
+---
+
+### [Computational Methods and Function Theory — CMFT 2026](https://ge.iitm.ac.in/cmft-2026)
+
+**International Conference**  
+**IIT Madras, Chennai, India**
+
+Jointly organized by:
+
+- Department of Mathematics, IIT Madras
+- Forum d'Analystes, Chennai
+
+---
 ---
 
 ## 📂 Past Workshops & Seminars
