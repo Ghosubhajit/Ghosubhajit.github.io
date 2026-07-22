@@ -35,7 +35,7 @@ A workshop on zeros of polynomials and related topics.
 **November 30–December 5, 2026**  
 **IIT Kanpur, India**
 
-A lecture programme on probability and stochastic processes.
+A mini-course and a conference on probability and stochastic processes.
 
 ---
 
@@ -43,11 +43,7 @@ A lecture programme on probability and stochastic processes.
 
 **December 7–11, 2026**   
 **IIT Madras, Chennai, India**
-
-Jointly organized by:
-
-- Department of Mathematics, IIT Madras
-- Forum d'Analystes, Chennai
+An International Conference on complex analysis and related topics.
 
 ---
 ---
