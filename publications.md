@@ -32,7 +32,7 @@ permanentlink: /_pages/publications.md
 [<a href="https://arxiv.org/abs/2312.13673">Arxiv</a>], [<a href="https://www.sciencedirect.com/science/article/pii/S0022247X24004931">Journal</a>] 
 </li>
 
-<li> Subhajit Ghosh and Koushik Ramachandran, "A note on the Erdos minimal area problem ",  
+<li> Subhajit Ghosh and Koushik Ramachandran, "A note on the Erdos minimal area problem " (Accepted for publication in Proceedings of the AMS,  
 [<a href="https://arxiv.org/abs/2604.03036">Arxiv</a>]
 </li>
 
