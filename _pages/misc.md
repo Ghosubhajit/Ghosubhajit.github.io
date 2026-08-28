@@ -21,27 +21,11 @@ layout: archive
 
 **A collection of useful links, notes, and other things I would like to keep easily accessible.**
 
-### [Link/Page Title 1](YOUR-LINK-HERE)
-
-A short description of what this page or link contains.
-
----
-
-### [Link/Page Title 2](YOUR-LINK-HERE)
-
-A short description of what this page or link contains.
-
----
 
 ### [Link/Page Title 3](YOUR-LINK-HERE)
 
-A short description of what this page or link contains.
-
----
 
 ## 📂 More
-
-*Other miscellaneous pages and notes:*
 
 {% for post in site.misc reversed %}
   * [{{ post.title }}]({{ post.url }})
