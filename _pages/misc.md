@@ -20,7 +20,7 @@ layout: archive
 ## 🔗 Useful Links:
 
 
-### [Probability Events in India](https://www.isibang.ac.in/~d.yogesh/IndianProbEvent.html)
+1. **[Probability Events in India](https://www.isibang.ac.in/~d.yogesh/IndianProbEvent.html)**
 
 
 ## 📂 More
