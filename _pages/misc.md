@@ -17,12 +17,10 @@ layout: archive
 
 ---
 
-## 🔗 Useful Links
-
-**A collection of useful links, notes, and other things I would like to keep easily accessible.**
+## 🔗 Useful Links:
 
 
-### [Link/Page Title 3](YOUR-LINK-HERE)
+### [Probability Events in India](https://www.isibang.ac.in/~d.yogesh/IndianProbEvent.html)
 
 
 ## 📂 More
